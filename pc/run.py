@@ -90,6 +90,19 @@ def parse_json(text: str) -> dict:
     return json.loads(text[s:e + 1])
 
 
+def claude_json(prompt: str, tools: str, **kw) -> dict:
+    """Claude 답을 JSON으로 읽기. 따옴표 실수 등으로 깨졌으면 '고쳐서 다시 출력'을 한 번 더 요청(검색 없이, 빠름)."""
+    text = claude(prompt, tools=tools, **kw)
+    try:
+        return parse_json(text)
+    except json.JSONDecodeError as e:
+        log(f"JSON 형식 오류({e}) → 형식만 고쳐 달라고 다시 요청")
+        fixed = claude("아래 텍스트는 JSON인데 문법 오류가 있습니다(" + str(e) + "). 내용은 그대로 두고, "
+                       "문자열 안의 큰따옴표(\")는 ‘ ’ 로 바꾸는 식으로 문법만 고쳐서 올바른 JSON 하나만 출력하세요. "
+                       "설명 없이 JSON만.\n\n" + text, tools="Read", max_turns=3, timeout=600)
+        return parse_json(fixed)
+
+
 # ---------- 단계 ----------
 def history(days=7):
     h = json.load(open(HISTORY, encoding="utf-8")) if os.path.exists(HISTORY) else []
@@ -120,12 +133,21 @@ def example_text():
 
 
 def validate(post):
-    cards = post["cards"]
-    if len(cards) != 7 or cards[0]["type"] != "cover" or cards[-1]["type"] != "outro":
+    cards = [c for c in post["cards"] if isinstance(c, dict) and c.get("type")]
+    # 순서가 조금 어긋나도 고쳐서 쓰기: 표지는 맨 앞, 마무리는 맨 뒤
+    covers = [c for c in cards if c["type"] == "cover"]
+    outros = [c for c in cards if c["type"] == "outro"]
+    middle = [c for c in cards if c["type"] not in ("cover", "outro")]
+    if not covers or not outros or len(middle) < 3:
         raise ValueError(f"카드 구성이 맞지 않음: {[c.get('type') for c in cards]}")
+    if len(middle) > 6:                      # 너무 길면 뒤쪽 본문 카드를 덜어냄(인스타 최대 10장, 8장까지만)
+        middle = middle[:6]
+    post["cards"] = [covers[0]] + middle + [outros[-1]]
+    if len(cards) != 7:
+        log(f"카드 {len(cards)}장 → {len(post['cards'])}장으로 맞춤")
     if re.search(r"[一-鿿]", json.dumps(cards, ensure_ascii=False)):
         log("경고: 한자가 섞여 있음(글꼴에 없음) → 그대로 진행하되 깨질 수 있음")
-    post["code"] = re.sub(r"[^A-Z0-9]", "", post.get("code", "TOPIC").upper())[:8] or "TOPIC"
+    post["code"] = re.sub(r"[^A-Z0-9]", "", post.get("code", "TOPIC").upper())[:10] or "TOPIC"
 
 
 def gather_photos(post, work):
@@ -135,11 +157,12 @@ def gather_photos(post, work):
         q = c.get("photo_query")
         if q and q not in queries:
             queries.append(q)
-    cands = []
-    for q in queries[:4]:
-        for c in commons.search(q, limit=6):
-            if len([x for x in cands if not x.get("stock")]) >= 14:
-                break
+    cands, seen = [], set()
+    for q in queries[:6]:
+        for c in commons.search(q, limit=5)[:4]:
+            if c["title"] in seen or len(cands) >= 20:
+                continue
+            seen.add(c["title"])
             path = commons.download(c)
             if path:
                 c["path"] = path
@@ -183,18 +206,20 @@ def pick_photos(post, cands, work):
                       f" — 사진 검색어: {c.get('photo_query')}" for i, c in enumerate(post["cards"], 1))
     cand = "\n".join(f"{i}: {'stock(Pexels)' if c.get('stock') else 'wikimedia'} / {c['title'][:70]} / {c.get('desc', '')[:80]}"
                      for i, c in enumerate(cands, 1))
-    res = parse_json(claude(prompts.PICK.format(sheet=sheet, topic=post["topic"], cards=cards, cand=cand),
-                            tools="Read", max_turns=6, timeout=600))
+    res = claude_json(prompts.PICK.format(sheet=sheet, topic=post["topic"], cards=cards, cand=cand),
+                      tools="Read", max_turns=6, timeout=600)
     return {int(k): int(v) for k, v in res.items() if v}
 
 
 def attach(post, cands, picks):
     used_sa = False
     credits = []
+    taken = set()
     for i, card in enumerate(post["cards"], 1):
         n = picks.get(i)
-        if not n or n > len(cands):
+        if not n or n > len(cands) or n in taken:   # 같은 사진 두 번 쓰지 않기
             continue
+        taken.add(n)
         c = cands[n - 1]
         card["photo"] = {"path": c["path"], "credit": c["credit"], "mode": "duo" if c.get("stock") else "color",
                          "cy": 0.4}
@@ -236,23 +261,35 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slot", default="now")
     ap.add_argument("--test", action="store_true", help="GitHub에 올리지 않고 out_test 폴더에만 만듦")
+    ap.add_argument("--category", default=None, help="이번 게시물 선호 분야(지정하면 시간대 기본값 대신 사용)")
     a = ap.parse_args()
     load_config()
     pub = next_publish_time(a.slot)
-    pid = pub.strftime("%Y%m%d-%H%M")
+    pid = pub.strftime("%Y%m%d-%H%M%S") if a.slot == "now" else pub.strftime("%Y%m%d-%H%M")
     work = os.path.join(ROOT, "out_test" if a.test else "work", pid)
     os.makedirs(work, exist_ok=True)
     log(f"=== 시작 {pid} (슬롯 {a.slot}{', 테스트' if a.test else ''})")
     try:
         hist = history()
         prompt = prompts.WRITE.format(
-            now=datetime.now(KST).strftime("%Y-%m-%d %H:%M"), category=SLOTS.get(a.slot, "아무 분야"),
+            now=datetime.now(KST).strftime("%Y-%m-%d %H:%M"), category=a.category or SLOTS.get(a.slot, "아무 분야"),
             history="\n".join(f"- {h['date']} {h['topic']}" for h in hist) or "(없음)",
             candidates=candidates_text(), guide=prompts.CARD_GUIDE, example=example_text())
         t0 = time.time()
-        post = parse_json(claude(prompt, tools="WebSearch,WebFetch"))
+        post = claude_json(prompt, tools="WebSearch,WebFetch")
         validate(post)
         log(f"주제: {post['topic']} ({time.time() - t0:.0f}초)")
+        # 사실 확인(두 번째 Claude): 숫자·날짜를 다시 검색해서 틀리거나 오래된 내용을 고침
+        t1 = time.time()
+        try:
+            checked = claude_json(prompts.FACT.format(now=datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
+                                                      draft=json.dumps(post, ensure_ascii=False)),
+                                  tools="WebSearch,WebFetch", max_turns=40)
+            validate(checked)
+            log(f"사실 확인 완료({time.time() - t1:.0f}초): {checked.get('fact_notes', [])}")
+            post = checked
+        except Exception as e:
+            raise RuntimeError(f"사실 확인 단계 실패 → 이번 게시물은 건너뜀: {e}")
         if any(h["topic"] == post["topic"] for h in hist):
             raise RuntimeError(f"최근에 올린 주제와 같음: {post['topic']}")
 
@@ -275,7 +312,7 @@ def main():
         if a.test:
             log(f"테스트 완료 → {post_dir}")
             if os.name == "nt":
-                os.startfile(post_dir)
+                subprocess.Popen(["explorer", os.path.abspath(post_dir)])
             return
         files = {f"queue/{pid}/{os.path.basename(p)}": open(p, "rb").read() for p in images}
         for n in ("caption.txt", "meta.json", "content.json"):
