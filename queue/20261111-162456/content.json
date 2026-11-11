@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-11",
+  "code": "GTA6",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "게임 · 해외 화제",
+      "title": [
+        "출시 D-8",
+        "GTA 6 프리로드"
+      ],
+      "sub": "11월 19일 출시를 앞두고 사전 다운로드가 열렸어요\n지금까지 확인된 내용을 정리했어요",
+      "sticker": [
+        "212GB",
+        "30fps",
+        "D-8"
+      ],
+      "sources": [
+        "TechRadar",
+        "Push Square",
+        "Vice"
+      ],
+      "photo_query": "Grand Theft Auto V",
+      "photo": {
+        "path": "image_cache\\wm_9549025f40cb.jpg",
+        "credit": "Photo: DanTD / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "GTA 6는 무엇?",
+      "rows": [
+        [
+          "게임명",
+          "그랜드 테프트 오토 VI"
+        ],
+        [
+          "개발사",
+          "락스타 게임즈"
+        ],
+        [
+          "유통",
+          "테이크투 인터랙티브"
+        ],
+        [
+          "출시일",
+          "2026년 11월 19일"
+        ],
+        [
+          "플랫폼",
+          "PS5 · Xbox Series X|S"
+        ],
+        [
+          "PC판",
+          "출시 일정 미발표"
+        ]
+      ],
+      "sources": [
+        "Push Square",
+        "TechRadar",
+        "Yahoo Finance"
+      ],
+      "photo_query": "Rockstar Games",
+      "photo": {
+        "path": "image_cache\\wm_08917aef1a65.jpg",
+        "credit": "Photo: Official GDC / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "사전 다운로드가 열렸어요",
+      "body": [
+        "디지털 사전 구매자는 **출시 9일 전**부터 게임을 미리 내려받을 수 있어요. Xbox는 11월 9일(미 동부 기준) 저녁에 먼저 열렸고, PS5는 11월 10일 나라별 자정에 열렸다고 보도됐어요.",
+        "필요한 저장 공간은 **최대 212GB**예요. 기기에 따라 달라서, 정확히 이 용량을 받는 건 아니에요.",
+        "출시 시각은 **11월 19일 현지 자정**이에요."
+      ],
+      "note": {
+        "label": "체크",
+        "text": "시작 시각은 지역마다 달라요. 각 스토어 페이지에서 확인하세요."
+      },
+      "sources": [
+        "Vice",
+        "Game Rant",
+        "TechRadar"
+      ],
+      "photo_query": "PlayStation 5",
+      "photo": {
+        "path": "image_cache\\wm_b681b181059a.jpg",
+        "credit": "Photo: InclusiveGameLab / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 GTA 6",
+      "items": [
+        {
+          "value": "212GB",
+          "label": "사전 다운로드에\n필요한 최대 공간"
+        },
+        {
+          "value": "30fps",
+          "label": "콘솔 개발 중\n목표 프레임"
+        },
+        {
+          "value": "$79.99",
+          "label": "미국 스탠다드\n에디션 가격"
+        },
+        {
+          "value": "$99.99",
+          "label": "미국 얼티밋\n에디션 가격"
+        }
+      ],
+      "sources": [
+        "TechRadar",
+        "Push Square",
+        "Notebookcheck"
+      ],
+      "photo_query": "Xbox Series X",
+      "photo": {
+        "path": "image_cache\\wm_52fb9c7fceaf.jpg",
+        "credit": "Photo: 茅野ふたば / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "GTA 6의 길",
+      "items": [
+        {
+          "date": "2025.11",
+          "text": "테이크투, 출시를 5월 26일에서 11월 19일로 연기 발표"
+        },
+        {
+          "date": "2026.6.25",
+          "text": "사전 예약 시작 보도, 스탠다드 $79.99"
+        },
+        {
+          "date": "11.9",
+          "text": "Xbox 사전 다운로드 개시, 같은 날 테이크투 실적 발표"
+        },
+        {
+          "date": "11.10",
+          "text": "PS5 사전 다운로드가 나라별 자정부터 열린 것으로 보도"
+        },
+        {
+          "date": "11.12",
+          "text": "코드 동봉 패키지판이 조기 출시될 예정이라고 보도"
+        },
+        {
+          "date": "11.19",
+          "text": "현지 자정 정식 출시"
+        }
+      ],
+      "sources": [
+        "Yahoo Finance",
+        "TechRadar",
+        "Push Square",
+        "Vice"
+      ],
+      "photo_query": "Take-Two Interactive"
+    },
+    {
+      "type": "debate",
+      "title": "기대와 아쉬움",
+      "lead": "출시가 다가오면서 **사양과 판매 방식**을 두고 말이 나와요.",
+      "left": {
+        "label": "기대하는 쪽",
+        "points": [
+          "13년 만의 새 GTA 본편",
+          "연기 없이 일정 유지 확인"
+        ]
+      },
+      "right": {
+        "label": "아쉬워하는 쪽",
+        "points": [
+          "콘솔 목표 프레임 30fps",
+          "PC판은 일정 미발표"
+        ]
+      },
+      "foot": "패키지판은 디스크가 아니라 코드가 든 박스로 나온다고 보도됐어요. 테이크투는 11월 9일 실적 발표에서 11월 19일 출시일을 재확인했고, 사전 예약이 기대를 웃돈다고 밝혔다고 전해져요.",
+      "sources": [
+        "Push Square",
+        "Vice",
+        "Yahoo Finance"
+      ],
+      "photo_query": "Grand Theft Auto VI"
+    },
+    {
+      "type": "outro",
+      "big": "11.19",
+      "title": "현지 자정 출시,\n첫 반응은 어떨까?",
+      "body": "출시 후 평가와 판매 기록이 나오면 다시 정리해 드릴게요. PC판은 아직 공식 일정이 없어요.",
+      "sources": [
+        "TechRadar",
+        "Push Square",
+        "Vice",
+        "Yahoo Finance",
+        "Game Rant",
+        "Notebookcheck",
+        "Inven Global"
+      ]
+    }
+  ]
+}
