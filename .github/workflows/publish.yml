@@ -1,0 +1,48 @@
+yaml
+name: hottopic-publish
+
+on:
+  schedule:
+    # 한국 시간 08:00 / 12:30 / 18:30 / 21:30 (GitHub 예약은 5~15분 늦을 수 있음)
+    - cron: "2 23 * * *"
+    - cron: "32 3 * * *"
+    - cron: "32 9 * * *"
+    - cron: "32 12 * * *"
+    # 놓친 게시물 보충용(매시 47분, 대기열이 없으면 아무것도 안 함)
+    - cron: "47 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true면 게시하지 않고 확인만"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hottopic-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - id: pub
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: python publish_queue.py
+      - if: steps.pub.outputs.changed == 'true'
+        run: |
+          git config user.name "hottopic-bot"
+          git config user.email "hottopic-bot@users.noreply.github.com"
+          git add -A queue
+          git commit -m "published $(date -u +%F_%H%M)" || exit 0
+          git pull --rebase -q || true
+          git push -q
