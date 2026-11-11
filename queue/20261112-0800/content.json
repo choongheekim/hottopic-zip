@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-12",
+  "code": "NOHSIHWAN",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "스포츠 · KBO→MLB",
+      "title": [
+        "노시환의",
+        "메이저 도전"
+      ],
+      "sub": "포스팅에 나선 한화 거포,\n메츠 새 코치와의 인연까지 7장으로 정리했어요",
+      "sticker": [
+        "포스팅",
+        "메츠",
+        "한화"
+      ],
+      "photo_query": "Noh Si-hwan"
+    },
+    {
+      "type": "profile",
+      "title": "노시환은 누구?",
+      "rows": [
+        [
+          "소속",
+          "KBO 한화 이글스 내야수"
+        ],
+        [
+          "올 시즌",
+          "127경기 29홈런 96타점"
+        ],
+        [
+          "계약",
+          "2027~2037 11년 307억원"
+        ],
+        [
+          "특징",
+          "팀을 대표하는 장타형 타자"
+        ],
+        [
+          "현재",
+          "MLB 포스팅 신청 중"
+        ]
+      ],
+      "sources": [
+        "MLB트레이드루머스",
+        "한국일보",
+        "세계일보"
+      ],
+      "photo_query": "Hanwha Eagles",
+      "photo": {
+        "path": "image_cache\\wm_6865b3bdc6b8.jpg",
+        "credit": "Photo: Jean Silvestre / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "포스팅이 시작됐어요",
+      "body": [
+        "KBO는 지난 10월 31일 한화의 요청에 따라 노시환을 **MLB 30개 구단에 포스팅**해 달라고 MLB 사무국에 요청했어요.",
+        "올해 맺은 11년 계약에 **시즌 뒤 포스팅으로 MLB에 도전할 수 있는 조항**이 들어 있었고, MLB 계약이 성사되면 기존 계약은 효력을 잃어요.",
+        "협상 기간은 포스팅 고지 다음 날부터 **30일째 오후 5시(미 동부시간)**까지예요."
+      ],
+      "note": {
+        "label": "계약이 결렬되면",
+        "text": "포스팅이 끝나고, 노시환은 다음 해 11월 1일까지 다시 포스팅될 수 없어요."
+      },
+      "sources": [
+        "한국일보",
+        "뉴스1",
+        "MLB트레이드루머스"
+      ],
+      "photo_query": "Daejeon Hanwha Life Eagles Park",
+      "photo": {
+        "path": "image_cache\\wm_8b7f05cc57b7.jpg",
+        "credit": "Photo: Pmlydon / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "메츠와 이어진 인연",
+      "body": [
+        "보도에 따르면 뉴욕 메츠가 **조니 워싱턴 코치**를 공동 타격코치로 영입했어요. 워싱턴은 2021년 한화에서 타격코치를 맡아 노시환을 지도한 인물이에요.",
+        "메츠 불펜코치 **호세 로사도**도 2021년부터 2023년 5월까지 한화 투수코치로 일했어요."
+      ],
+      "note": {
+        "label": "주의",
+        "text": "현지 전망일 뿐, 메츠와 노시환의 계약이나 협상 소식은 확인되지 않았어요."
+      },
+      "sources": [
+        "MLB트레이드루머스",
+        "스타뉴스",
+        "머니투데이"
+      ],
+      "photo_query": "New York Mets"
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 포스팅",
+      "items": [
+        {
+          "value": "11년",
+          "label": "한화와 맺은\n기존 계약 기간"
+        },
+        {
+          "value": "307억원",
+          "label": "기존 계약 총액\n약 2,300만 달러"
+        },
+        {
+          "value": "30일",
+          "label": "MLB 구단과\n협상할 수 있는 기간"
+        },
+        {
+          "value": "29홈런",
+          "label": "올 시즌 127경기\n타율 0.283·96타점"
+        }
+      ],
+      "sources": [
+        "MLB트레이드루머스",
+        "세계일보",
+        "스타뉴스"
+      ],
+      "photo_query": "Citi Field",
+      "photo": {
+        "path": "image_cache\\wm_0b7f12be49aa.jpg",
+        "credit": "Photo: Malrite / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "MLB 통할까?",
+      "lead": "기대와 변수가 함께 따라붙는 도전이에요. **노사협약 만료**도 변수로 꼽혀요.",
+      "left": {
+        "label": "기대 포인트",
+        "points": [
+          "팀 간판급 장타력",
+          "메츠 코치와의 인연"
+        ]
+      },
+      "right": {
+        "label": "변수·우려",
+        "points": [
+          "삼진 비율 25.7%",
+          "직장폐쇄 가능성"
+        ]
+      },
+      "foot": "NBC 스포츠는 노시환의 올해 삼진 비율이 KBO 평균 19.5%보다 높고 3루 수비도 뛰어나지 않다고 짚었어요. 직장폐쇄가 선언되면 계약 등 행정 절차가 멈출 수 있다는 우려도 있어요.",
+      "sources": [
+        "서울경제",
+        "OSEN",
+        "TSN"
+      ],
+      "photo_query": "Korea Baseball Organization",
+      "photo": {
+        "path": "image_cache\\wm_5e91a89e318f.jpg",
+        "credit": "Photo: Trainholic / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "12.1",
+      "title": "노사협약 만료일,\n직장폐쇄 오나?",
+      "body": "MLB 노사협약이 미국 시간 12월 1일 만료돼요. 포스팅 협상 결과와 직장폐쇄 여부가 나오면 다시 정리해 드릴게요.",
+      "sources": [
+        "MLB트레이드루머스",
+        "한국일보",
+        "뉴스1",
+        "세계일보",
+        "스타뉴스",
+        "머니투데이",
+        "서울경제",
+        "OSEN",
+        "TSN"
+      ]
+    }
+  ]
+}
