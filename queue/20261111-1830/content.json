@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-11",
+  "code": "SUMO",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "스포츠 · 일본 스모",
+      "title": [
+        "요코즈나 둘,",
+        "엇갈린 출발"
+      ],
+      "sub": "후쿠오카 규슈 바쇼 사흘째\n오노사토와 호쇼류에게 무슨 일이?",
+      "sticker": [
+        "스모",
+        "규슈",
+        "바쇼"
+      ],
+      "photo_query": "Fukuoka Kokusai Center",
+      "photo": {
+        "path": "image_cache\\wm_f05a8e1660e2.jpg",
+        "credit": "Photo: Hirho / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "규슈 바쇼는?",
+      "rows": [
+        [
+          "대회",
+          "일본 스모 연중 6대 본바쇼 중 하나"
+        ],
+        [
+          "장소",
+          "후쿠오카 국제센터"
+        ],
+        [
+          "개막",
+          "2026년 11월 8일"
+        ],
+        [
+          "일정",
+          "15일간, 마지막 날은 11월 22일"
+        ],
+        [
+          "최고위",
+          "요코즈나 오노사토·호쇼류"
+        ],
+        [
+          "승패 기준",
+          "15일 중 가장 많이 이긴 선수가 우승"
+        ]
+      ],
+      "sources": [
+        "Tachiai",
+        "Sumostats",
+        "Sumo Stomp"
+      ],
+      "photo_query": "Fukuoka Kokusai Center"
+    },
+    {
+      "type": "story",
+      "title": "오노사토, 불안한 시작",
+      "body": [
+        "지난 9월 가을 바쇼에서 **1년 만의 우승**을 차지한 요코즈나 오노사토는 이번에 **연속 우승**을 노려요.",
+        "그런데 첫날 요시노후지에게 심판 판정 끝에 패했고, 2일차 후지료가, 3일차 아사노야마를 이겨 **2승 1패**가 됐어요. 3일차엔 입에서 피가 나는 모습도 나왔는데, 원인은 확인되지 않았어요."
+      ],
+      "note": {
+        "label": "1일차 판정",
+        "text": "손이 도효에 닿았다는 판단으로 패배가 유지됐고, 재경기는 없었어요."
+      },
+      "sources": [
+        "Tachiai",
+        "Sumostats"
+      ],
+      "photo_query": "Onosato Shohei"
+    },
+    {
+      "type": "story",
+      "title": "호쇼류, 무릎 복귀전",
+      "body": [
+        "요코즈나 호쇼류는 7월 나고야 바쇼 중 다친 **오른쪽 무릎**을 수술하고, 9월 가을 바쇼를 **통째로 쉰** 뒤 돌아왔어요.",
+        "첫날 츠라노우미, 2일차 아사노야마를 이겨 2승을 쌓았지만, 3일차에 후지료가에게 져 상대에게 **첫 킨보시**를 내줬어요. 무릎이 불안해 보였다는 평가도 나왔어요."
+      ],
+      "note": {
+        "label": "킨보시란?",
+        "text": "마에가시라 이하 평 선수가 요코즈나를 이기는 것을 말해요. 이긴 선수에게는 별도 포상이 따라요."
+      },
+      "sources": [
+        "Tachiai",
+        "Sumostats",
+        "Sumo Stomp"
+      ],
+      "photo_query": "Hoshoryu Tomokatsu",
+      "photo": {
+        "path": "image_cache\\wm_73299b21a89b.jpg",
+        "credit": "Photo: A2B48 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "사흘간의 흐름",
+      "items": [
+        {
+          "date": "2026.7",
+          "text": "호쇼류 오른쪽 무릎 부상·수술"
+        },
+        {
+          "date": "9월",
+          "text": "오노사토, 가을 바쇼 우승"
+        },
+        {
+          "date": "11.8",
+          "text": "1일차 오노사토 패, 호쇼류 복귀전 승"
+        },
+        {
+          "date": "11.9",
+          "text": "2일차 오노사토·호쇼류 모두 승리"
+        },
+        {
+          "date": "11.10",
+          "text": "3일차 호쇼류 패, 둘 다 2승 1패"
+        },
+        {
+          "date": "11.11",
+          "text": "4일차 호쇼류 vs 우라, 오노사토 vs 후지세이운"
+        }
+      ],
+      "sources": [
+        "Tachiai",
+        "Sumostats"
+      ],
+      "photo_query": "Aonishiki Arata"
+    },
+    {
+      "type": "story",
+      "title": "변수는 부상과 신예",
+      "body": [
+        "이번 대회는 **부상 이탈**도 이어지고 있어요. 시로쿠마는 개막 전 발목 인대 부상으로, 히토시는 1일차 눈 주변 부상으로, 고토에이호는 3일차 후 목 부상으로 빠졌어요.",
+        "한편 3일차 기준 **아타미후지는 3승 무패**예요. 후지료가는 호쇼류를 꺾고 자기 첫 킨보시를 땄어요."
+      ],
+      "note": {
+        "label": "확인 기준",
+        "text": "위 기록은 3일차까지예요. 4일차 결과는 확인하지 못했어요."
+      },
+      "sources": [
+        "Tachiai",
+        "Sumo Stomp"
+      ],
+      "photo_query": "Atamifuji Sakutaro",
+      "photo": {
+        "path": "image_cache\\wm_11a60ff105f7.jpg",
+        "credit": "Photo: TSUBAME98 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.22",
+      "title": "15일 승부,\n마지막 날은 22일",
+      "body": "대회는 11월 22일까지 이어져요. 두 요코즈나가 2승 1패에서 어떻게 순위를 끌어올릴지, 호쇼류 무릎 상태가 관전 포인트예요.",
+      "sources": [
+        "Tachiai",
+        "Sumostats"
+      ]
+    }
+  ]
+}
