@@ -205,16 +205,19 @@ def frame(d, pal, code, page, total, sources=None, credit=None):
     d.line((M, 106, W - M, 106), fill=fg, width=3)
     d.line((M, 1258, W - M, 1258), fill=fg, width=2)
     d.text((M, 1276), HANDLE, font=PX(24), fill=fg)
-    small = []
-    if sources:
-        small.append("출처 " + ", ".join(sources))
-    if credit:
-        small.append(credit)
-    if small:
-        txt = "  |  ".join(small)
-        f = PM(19)
-        while d.textlength(txt, font=f) > W - 2 * M - 220:
-            txt = txt[:-2]
+    f = PM(19)
+    room = W - 2 * M - 220
+    srcs = list(sources or [])
+    def compose():
+        parts = (["출처 " + ", ".join(srcs)] if srcs else []) + ([credit] if credit else [])
+        return "  |  ".join(parts)
+    txt = compose()
+    while srcs and d.textlength(txt, font=f) > room:   # 기사 출처를 하나씩 줄임(전체 목록은 캡션에 있음)
+        srcs.pop()
+        txt = compose()
+    while txt and d.textlength(txt, font=f) > room:
+        txt = txt[:-2]
+    if txt:
         d.text((W - M - d.textlength(txt, font=f), 1282), txt, font=f, fill=sub)
 
 
@@ -357,13 +360,15 @@ def story(c, code, page, total):
         if tot <= avail:
             break
         size -= 1
+    if not ph and tot < avail:                       # 사진 없으면 남는 공간을 위아래로 나눠 가운데 정렬
+        y += (avail - tot) // 2
     for para in c["body"]:
         hh, _ = rich(d, (M, y), para, PM, size, W - 2 * M, fg, ac, gap=1.5)
         y += hh + 22
     if note:
-        ny = 1230 - note_h
+        ny = 1230 - note_h if ph else min(1230 - note_h, y + 30)
         b_bg, b_lab, b_fg = ST["box_a"]
-        d.rounded_rectangle((M, ny, W - M, 1230), 26, fill=b_bg)
+        d.rounded_rectangle((M, ny, W - M, ny + note_h), 26, fill=b_bg)
         d.text((M + 32, ny + 26), note["label"], font=PX(26), fill=b_lab)
         rich(d, (M + 32, ny + 68), note["text"], PB, 33, W - 2 * M - 64, b_fg, b_lab, gap=1.45)
     return img
@@ -389,8 +394,11 @@ def numbers(c, code, page, total):
         d.rounded_rectangle((x, y, x + tw, y + th), 30, fill=t_bg)
         vs = fit_size(d, it["value"], TF, int(110 * {"BH": 1, "PX": 0.95, "SR": 0.85}[ST["title"]]), tw - 60)
         vs = min(vs, int(th * 0.36))
-        d.text((x + 30, y + 28), it["value"], font=TF(vs), fill=WINE if (ST["brand_key"] == "A" and sum(t_bg) > 600) else ST["tile_num"])
-        rich(d, (x + 32, y + th - 108), it["label"], PB, 30, tw - 60, fg, fg, gap=1.35, max_h=90)
+        lab_h = len(rich_lines(d, it["label"], PB(31), tw - 60)) * int(31 * 1.35)
+        top = y + max(28, (th - (int(vs * 1.25) + 24 + lab_h)) // 2)   # 타일 안에서 세로 가운데
+        d.text((x + 30, top), it["value"], font=TF(vs), fill=WINE if (ST["brand_key"] == "A" and sum(t_bg) > 600) else ST["tile_num"])
+        ly = min(top + int(vs * 1.25) + 24, y + th - 108)
+        rich(d, (x + 32, ly), it["label"], PB, 31, tw - 60, fg, fg, gap=1.35, max_h=90)
     return img
 
 
@@ -405,7 +413,7 @@ def timeline(c, code, page, total):
     y = max(150 + h + 40, 420 if ph else 0)
     items = c["items"]
     rh = (1225 - y) // len(items)
-    lx = M + 160
+    lx = M + max(150, int(max(d.textlength(it["date"], font=PX(34)) for it in items)) + 40)
     d.line((lx, y + 18, lx, y + rh * (len(items) - 1) + 18), fill=fg, width=4 if ST["photo"] == "duo" else 2)
     for i, it in enumerate(items):
         last = i == len(items) - 1
@@ -432,8 +440,14 @@ def debate(c, code, page, total):
     y += hh + 34
     fs = 28 if ph else 31
     foot_h = len(rich_lines(d, c["foot"], PM(fs), W - 2 * M - 40)) * int(fs * 1.5) + 44
-    box_h = 1225 - foot_h - 24 - y
     bw = (W - 2 * M - 24) // 2
+    ps0 = 31 if ph else 36
+    need = 0
+    for side in (c["left"], c["right"]):
+        hh0 = 84 + sum(len(rich_lines(d, t, PB(ps0), bw - 102)) * int(ps0 * 1.38) + 18 for t in side["points"]) + 30
+        need = max(need, hh0)
+    avail = 1225 - foot_h - 24 - y
+    box_h = min(avail, need + max(0, avail - need) // 3)   # 남는 공간은 박스와 아래 여백에 나눔
     for i, side in enumerate((c["left"], c["right"])):
         x = M + i * (bw + 24)
         bgc, labc, fgc = ST["box_a"] if i == 0 else ST["box_b"]
@@ -471,7 +485,7 @@ def outro(c, code, page, total, photo=None):
     d.text((M, 1130), "매일 3~4번, 지금 뜨는 화제를 7장으로", font=PX(38), fill=ST["outro_cta"])
     d.text((M, 1188), "저장해 두고 친구에게 공유해 주세요", font=PB(28), fill=ST["outro_text"])
     note = "※ 언론 보도를 AI가 정리했어요."
-    d.text((M, 1236), note, font=PM(19), fill=pal[3])
+    d.text((M, 1226), note, font=PM(19), fill=pal[3])
     return img
 
 

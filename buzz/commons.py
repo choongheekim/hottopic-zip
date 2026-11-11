@@ -77,7 +77,12 @@ def search(query: str, limit: int = 12, min_side: int = 1000) -> list[dict]:
                 continue
             if max(ii["width"], ii["height"]) < min_side:
                 continue
-            artist = _clean(m.get("Artist", {}).get("value"))[:60] or "Unknown"
+            artist = _clean(m.get("Artist", {}).get("value"))[:60]
+            half = len(artist) // 2
+            if artist and artist[:half] == artist[half:]:          # "Unknown authorUnknown author" 같은 중복
+                artist = artist[:half]
+            if not artist or "unknown" in artist.lower():
+                artist = "Wikimedia Commons"
             out.append({
                 "title": p["title"], "w": ii["width"], "h": ii["height"],
                 "thumb": ii.get("thumburl") or ii["url"], "page": ii.get("descriptionurl"),
