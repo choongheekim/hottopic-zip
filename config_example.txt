@@ -1,0 +1,15 @@
+# 이 파일을 복사해서 이름을 config.txt 로 바꾸고 값을 채우세요. (config.txt 는 GitHub에 올리지 마세요)
+
+# GitHub 개인 토큰 — hottopic-zip 저장소만 Contents 읽기·쓰기 권한
+GITHUB_TOKEN=
+GITHUB_REPO=choongheekim/hottopic-zip
+
+# (선택) 실물 사진이 없을 때 쓸 Pexels 무료 키
+PEXELS_API_KEY=
+
+# (선택) 실패 알림 받을 텔레그램 봇
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
+
+# 글 쓰는 모델(구독 안에서 사용): sonnet 또는 opus
+CLAUDE_MODEL=sonnet

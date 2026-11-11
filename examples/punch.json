@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-11",
+  "code": "PUNCH",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "해외 유행 · 일본",
+      "title": [
+        "인형 엄마",
+        "원숭이 펀치"
+      ],
+      "sub": "일본 올해의 유행어 후보까지 오른\n아기 원숭이의 1년을 7장으로 정리했어요",
+      "sticker": [
+        "일본",
+        "유행어",
+        "후보"
+      ],
+      "photo": {
+        "path": "photos/punch/p2.jpg",
+        "credit": "Photo: Daiei Onoguchi / CC BY-SA 4.0 (Wikimedia Commons)",
+        "mode": "color",
+        "cy": 0.3
+      }
+    },
+    {
+      "type": "profile",
+      "title": "펀치는 누구?",
+      "rows": [
+        [
+          "이름",
+          "펀치(パンチ) · 일본에선 ‘펀치 군’"
+        ],
+        [
+          "생일",
+          "2025년 7월 26일 · 수컷"
+        ],
+        [
+          "종",
+          "일본원숭이(니혼자루)"
+        ],
+        [
+          "사는 곳",
+          "일본 지바현 이치카와시 동식물원"
+        ],
+        [
+          "애착템",
+          "이케아 오랑우탄 인형 ‘오랑 마마’"
+        ],
+        [
+          "응원 태그",
+          "#がんばれパンチ (힘내라 펀치)"
+        ]
+      ],
+      "photo": {
+        "path": "photos/punch/p1.jpg",
+        "credit": "Photo: Daiei Onoguchi / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.55
+      },
+      "sources": [
+        "주간여성PRIME",
+        "AP"
+      ]
+    },
+    {
+      "type": "story",
+      "title": "왜 인형을 안고 다닐까",
+      "body": [
+        "펀치의 엄마는 **첫 출산**이었고, 하필 태어난 7월은 **기록적인 폭염**이었어요. 동물원은 엄마 원숭이가 지쳐 새끼를 돌보지 못한 것으로 보고 있어요.",
+        "아기 원숭이는 엄마 몸에 매달리며 **근력과 안정감**을 키워요. 그래서 사육사들이 직접 키우면서 매달릴 대상을 찾아 줬어요.",
+        "수건, 여러 인형을 써 본 끝에 고른 게 **이케아 오랑우탄 인형**이에요."
+      ],
+      "note": {
+        "label": "사육사 설명",
+        "text": "털이 길고 잡을 곳이 많은 데다 원숭이와 닮아서, 나중에 무리로 돌아갈 때도 도움이 될 거라 봤대요."
+      },
+      "sources": [
+        "AP",
+        "겐다이비즈니스"
+      ],
+      "photo": {
+        "path": "photos/punch/p9.jpg",
+        "credit": "Photo: Daiei Onoguchi / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 펀치",
+      "items": [
+        {
+          "value": "9만 명",
+          "label": "올해 3월 관람객\n전년의 3배 넘게"
+        },
+        {
+          "value": "2,500장",
+          "label": "첫 생일에 받은\n전 세계 생일 카드"
+        },
+        {
+          "value": "3,800만엔",
+          "label": "해외 전 킥복서가 내건\n‘사겠다’ 제안 금액"
+        },
+        {
+          "value": "10분",
+          "label": "인파가 몰리자 생긴\n관람 시간 제한"
+        }
+      ],
+      "sources": [
+        "닛칸겐다이",
+        "AP",
+        "주간여성PRIME"
+      ],
+      "photo": {
+        "path": "photos/punch/crowd.jpg",
+        "credit": "Photo: Daiei Onoguchi / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.5,
+        "caption": "2026년 3월, 펀치를 보러 온 인파"
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "펀치의 1년",
+      "items": [
+        {
+          "date": "2025.7",
+          "text": "탄생. 엄마가 돌보지 못해 사육사 손에서 자람"
+        },
+        {
+          "date": "2026.1",
+          "text": "원숭이 약 50마리가 사는 ‘원숭이 산’ 데뷔"
+        },
+        {
+          "date": "2.5",
+          "text": "동물원 X에 ‘힘내라 펀치’ 글 → 전 세계 확산, CNN·BBC 보도"
+        },
+        {
+          "date": "2월",
+          "text": "이케아 재팬 대표가 직접 찾아와 인형 기증, 인형은 일부 지역 품절"
+        },
+        {
+          "date": "7.26",
+          "text": "첫 생일. 생일 카드 약 2,500장, 성장 기록 특별 전시"
+        },
+        {
+          "date": "8월",
+          "text": "귀·발 잇단 부상 → 동물원, 공격한 원숭이들 격리"
+        },
+        {
+          "date": "11.5",
+          "text": "일본 ‘신어·유행어 대상’ 후보 30개에 이름 올림"
+        }
+      ],
+      "sources": [
+        "주간여성PRIME",
+        "닛칸겐다이",
+        "AFP",
+        "AP"
+      ],
+      "photo": {
+        "path": "photos/punch/p5.jpg",
+        "credit": "Photo: Daiei Onoguchi / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.45
+      }
+    },
+    {
+      "type": "debate",
+      "title": "다시 화제인 이유",
+      "lead": "최근 다른 원숭이가 펀치를 **놀이기구에서 떨어뜨리는 영상**이 X에서 퍼졌어요.",
+      "left": {
+        "label": "걱정하는 팬들",
+        "points": [
+          "또 괴롭힘당하는 것 아니냐",
+          "공식 계정 운영 방식에 대한 불신도 커짐"
+        ]
+      },
+      "right": {
+        "label": "동물원 입장",
+        "points": [
+          "친구들과 잘 노는 모습도 함께 공개",
+          "현장 사육사들을 응원해 달라고 당부"
+        ]
+      },
+      "foot": "동물권 단체 PETA는 지난 2월 ‘동물원은 보호소가 아니다’라며 펀치를 보호구역으로 옮기라고 요구하기도 했어요.",
+      "sources": [
+        "주간여성PRIME",
+        "AFP"
+      ],
+      "photo": {
+        "path": "photos/punch/p6.jpg",
+        "credit": "Photo: Daiei Onoguchi / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.55
+      }
+    },
+    {
+      "type": "outro",
+      "big": "12.1",
+      "title": "유행어 대상 발표,\n펀치가 받을까?",
+      "body": "올해 일본 유행어 톱10과 대상은 12월 1일 오후 2시(현지)에 발표돼요. 결과 나오면 다시 정리해 드릴게요.",
+      "sources": [
+        "주간여성PRIME",
+        "닛칸겐다이",
+        "AP",
+        "AFP",
+        "겐다이비즈니스",
+        "pondaichi(유행어 일정)"
+      ],
+      "photo": {
+        "path": "photos/punch/p7.jpg",
+        "credit": "Photo: Daiei Onoguchi / CC BY-SA 4.0 (Wikimedia Commons)",
+        "mode": "color",
+        "cy": 0.5
+      }
+    }
+  ],
+  "caption": "인형 엄마를 안고 다니던 일본 아기 원숭이 ‘펀치’ 🐒\n태어나서 지금까지 1년, 왜 전 세계가 이 원숭이를 지켜보는지 7장으로 정리했어요.\n\n📷 사진: Daiei Onoguchi (Wikimedia Commons, CC BY-SA 4.0) — 2026년 3월 7일 이치카와시 동식물원에서 촬영된 실제 펀치 사진이에요. 이 게시물 이미지도 같은 CC BY-SA 4.0 조건으로 공유할 수 있어요.\n\n매일 아침 7시, 지금 화제 하나를 깊게 👉 팔로우",
+  "hashtags": [
+    "#펀치",
+    "#パンチくん",
+    "#일본원숭이",
+    "#이치카와동물원",
+    "#유행어대상",
+    "#해외토픽",
+    "#오늘의화제"
+  ]
+}
