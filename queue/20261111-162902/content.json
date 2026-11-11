@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-11",
+  "code": "NVLINK",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "테크 · AI 반도체",
+      "title": [
+        "엔비디아가",
+        "국산 칩과 손잡다"
+      ],
+      "sub": "엔비디아 GPU와 국산 NPU를 한 시스템으로\n묶는 협약, 7장으로 정리했어요",
+      "sticker": [
+        "GPU",
+        "NPU",
+        "협약"
+      ],
+      "photo_query": "Nvidia",
+      "photo": {
+        "path": "image_cache\\wm_07f07a51501e.jpg",
+        "credit": "Photo: Jawad.N.N / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "무슨 협약일까?",
+      "rows": [
+        [
+          "일시",
+          "2026년 11월 9일"
+        ],
+        [
+          "장소",
+          "서울 코엑스 AI 데이"
+        ],
+        [
+          "참여",
+          "엔비디아·SKT·리벨리온"
+        ],
+        [
+          "지원",
+          "과학기술정보통신부"
+        ],
+        [
+          "핵심",
+          "NV링크 퓨전 기반 통합"
+        ],
+        [
+          "칩",
+          "리벨 R200(NPU)"
+        ]
+      ],
+      "sources": [
+        "엔비디아 뉴스룸",
+        "파이낸셜뉴스",
+        "아이뉴스24"
+      ],
+      "photo_query": "COEX"
+    },
+    {
+      "type": "story",
+      "title": "GPU와 NPU가 역할을 나눠요",
+      "body": [
+        "AI가 답을 만드는 **추론**을 두 단계로 나눠요. 질문을 분석하는 앞단은 **엔비디아 GPU**가 맡아요.",
+        "답변을 만들어 내는 뒷단은 **리벨리온 NPU**가 맡아요. 서로 잘하는 일을 나누는 방식이에요."
+      ],
+      "note": {
+        "label": "NV링크 퓨전이란",
+        "text": "외부 맞춤형 칩을 엔비디아의 NV링크 네트워크에 연결해 주는 기술이에요."
+      },
+      "sources": [
+        "엔비디아 뉴스룸",
+        "아이뉴스24"
+      ],
+      "photo_query": "Nvidia GPU",
+      "photo": {
+        "path": "image_cache\\wm_c0dab37da759.jpg",
+        "credit": "Photo: ASUS TUF Gaming X3 20190601.jpg: Solomon203 derivative work  / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "SKT는 무엇을 하나",
+      "body": [
+        "SK텔레콤은 이 묶음 시스템을 자사 **AI 데이터센터**에 구축할 계획이에요.",
+        "기업이 칩을 직접 사거나 데이터센터를 짓지 않아도 **API**로 AI 토큰을 쓰게 하는 것이 목표예요."
+      ],
+      "note": {
+        "label": "서버 규격",
+        "text": "엔비디아 발표에 따르면 엔비디아의 MGX 서버 랙 규격을 쓰는 통합 시스템이에요."
+      },
+      "sources": [
+        "엔비디아 뉴스룸",
+        "아이뉴스24"
+      ],
+      "photo_query": "SK Telecom",
+      "photo": {
+        "path": "image_cache\\wm_9200d2d32f6b.jpg",
+        "credit": "Photo: 최광모 (Choe Kwangmo) / CC0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 AI 데이",
+      "items": [
+        {
+          "value": "3곳",
+          "label": "협약을 맺은\n기업 수"
+        },
+        {
+          "value": "2단계",
+          "label": "GPU·NPU가 나눠 맡는\n추론 과정"
+        },
+        {
+          "value": "22곳",
+          "label": "포럼에 참여한\n국내 AI 스타트업"
+        },
+        {
+          "value": "L4",
+          "label": "카카오모빌리티와\n협력한 자율주행 단계"
+        }
+      ],
+      "sources": [
+        "파이낸셜뉴스",
+        "엔비디아 뉴스룸"
+      ],
+      "photo_query": "Kakao Mobility"
+    },
+    {
+      "type": "story",
+      "title": "같은 날 나온 소식들",
+      "body": [
+        "**LG AI연구원**은 자사 모델 K-엑사원 2.5의 API를 무료로 공개한다고 했어요.",
+        "**LG전자**는 엔비디아 로봇 모델로 휴머노이드 작업 안정성을 시험 중이고, **카카오모빌리티**는 엔비디아와 레벨4 자율주행 협약을 맺었어요."
+      ],
+      "note": null,
+      "sources": [
+        "파이낸셜뉴스",
+        "뉴스토마토"
+      ],
+      "photo_query": "LG Electronics",
+      "photo": {
+        "path": "image_cache\\wm_3a692a00f89c.jpg",
+        "credit": "Photo: Globetrotter19 / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "NPU",
+      "title": "국산 칩의 다음 걸음,\n어디까지 갈까?",
+      "body": "엔비디아는 R200 시스템이 2028년 배치 준비를 마칠 것으로 예상한다고 밝혔어요. 과기정통부는 리벨리온·SKT를 시작으로 엔비디아와 국내 NPU 기업의 협력을 지원해요. 후속 발표를 지켜봐요.",
+      "sources": [
+        "엔비디아 뉴스룸",
+        "파이낸셜뉴스",
+        "아이뉴스24"
+      ],
+      "photo_query": "Rebellions"
+    }
+  ]
+}

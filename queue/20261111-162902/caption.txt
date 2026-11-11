@@ -1,0 +1,11 @@
+엔비디아 GPU와 국산 NPU를 한 시스템으로 묶는다니, 무슨 일일까요? 🤝
+11월 9일 서울에서 엔비디아·SK텔레콤·리벨리온이 협약을 맺었어요.
+질문 분석은 GPU, 답변 생성은 NPU가 나눠 맡는 구조예요.
+같은 날 LG·카카오모빌리티 소식까지 7장에 담았어요 💡
+매일 3~4번, 지금 뜨는 화제를 7장으로 👉 팔로우
+
+📷 Photo: Jawad.N.N / CC BY-SA 4.0 · Photo: ASUS TUF Gaming X3 20190601.jpg: Solomon203 derivative work  / CC BY-SA 4.0 · Photo: 최광모 (Choe Kwangmo) / CC0 · Photo: Globetrotter19 / CC BY-SA 3.0
+(사진이 CC BY-SA 라이선스라 이 게시물 이미지도 같은 조건으로 공유할 수 있어요.)
+출처: 엔비디아 뉴스룸, 파이낸셜뉴스, 아이뉴스24, 뉴스토마토
+
+#엔비디아 #SK텔레콤 #리벨리온 #NPU #AI반도체 #소버린AI #NVLinkFusion #테크이슈
