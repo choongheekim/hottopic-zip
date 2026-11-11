@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-11",
+  "code": "UFC334",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "스포츠 · UFC",
+      "title": [
+        "은퇴한 여왕,",
+        "타이틀 도전"
+      ],
+      "sub": "3년 넘게 쉰 아만다 누네스가\n챔피언 해리슨과 MSG에서 맞붙어요",
+      "sticker": [
+        "UFC",
+        "MSG",
+        "복귀전"
+      ],
+      "photo_query": "Amanda Nunes",
+      "sources": [
+        "Yahoo Sports",
+        "Cageside Press"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_efc49e9d1d0c.jpg",
+        "credit": "Photo: MMAnytt / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "UFC 334란?",
+      "rows": [
+        [
+          "날짜",
+          "2026년 11월 14일(토, 현지)"
+        ],
+        [
+          "장소",
+          "미국 뉴욕 매디슨 스퀘어 가든"
+        ],
+        [
+          "메인",
+          "시릴 간 vs 조시 호킷 (헤비급)"
+        ],
+        [
+          "코메인",
+          "해리슨 vs 누네스 (여자 밴텀급)"
+        ],
+        [
+          "중계",
+          "미국 내 파라마운트+"
+        ]
+      ],
+      "sources": [
+        "Forbes",
+        "Paramount+",
+        "Cageside Press"
+      ],
+      "photo_query": "Madison Square Garden"
+    },
+    {
+      "type": "story",
+      "title": "두 사람은 누구?",
+      "body": [
+        "챔피언 **카일라 해리슨**은 유도 올림픽 금메달을 두 번 딴 선수예요. UFC 데뷔 뒤 3연승으로 벨트를 차지했고, 이번이 **첫 방어전**이에요.",
+        "도전자 **아만다 누네스**는 밴텀급과 페더급 챔피언을 함께 지낸 선수예요. 여자 밴텀급 **최다 승리 기록**을 갖고 있어요."
+      ],
+      "note": {
+        "label": "옛 동료",
+        "text": "둘은 미국 플로리다 아메리칸 탑 팀에서 함께 훈련한 옛 동료예요. 그래서 더 화제가 되고 있어요."
+      },
+      "sources": [
+        "Yahoo Sports",
+        "Cageside Press"
+      ],
+      "photo_query": "Kayla Harrison",
+      "photo": {
+        "path": "image_cache\\wm_f29d905062de.jpg",
+        "credit": "Photo: Agência Brasil Fotografias / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 대결",
+      "items": [
+        {
+          "value": "19승 1패",
+          "label": "해리슨의 종합격투기\n통산 전적"
+        },
+        {
+          "value": "23승 5패",
+          "label": "누네스의 종합격투기\n통산 전적"
+        },
+        {
+          "value": "3년 5개월",
+          "label": "누네스가 케이지를\n떠나 있던 시간"
+        },
+        {
+          "value": "13승",
+          "label": "누네스의 여자 밴텀급\n역대 최다 승리"
+        }
+      ],
+      "sources": [
+        "Cageside Press",
+        "Forbes",
+        "Yahoo Sports"
+      ],
+      "photo_query": "UFC Octagon",
+      "photo": {
+        "path": "image_cache\\wm_5b365ed8e422.jpg",
+        "credit": "Photo: Wikimedia Commons / Public domain",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "여기까지 오기까지",
+      "items": [
+        {
+          "date": "2023.6",
+          "text": "누네스, 아이르네 알도나 꺾고 은퇴 선언"
+        },
+        {
+          "date": "2024",
+          "text": "해리슨, UFC 300에서 홀리 홈 상대로 데뷔승"
+        },
+        {
+          "date": "2025.6",
+          "text": "해리슨, UFC 316서 줄리아나 페냐 꺾고 챔피언"
+        },
+        {
+          "date": "2026.1",
+          "text": "UFC 324 예정이던 맞대결, 해리슨 목 수술로 불발"
+        },
+        {
+          "date": "9월",
+          "text": "UFC 334 MSG 대회 발표, 코메인으로 재편성"
+        },
+        {
+          "date": "10.29",
+          "text": "백업 선수로 호셀린 에드워즈 거론 (보도)"
+        },
+        {
+          "date": "11.14",
+          "text": "UFC 334, 뉴욕에서 맞대결"
+        }
+      ],
+      "sources": [
+        "Cageside Press",
+        "Fightful",
+        "Yahoo Sports",
+        "Forbes"
+      ],
+      "photo_query": "Julianna Peña",
+      "photo": {
+        "path": "image_cache\\wm_88e843b7f989.jpg",
+        "credit": "Photo: MMAnytt / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "누가 더 유리할까",
+      "lead": "두 선수의 **강점**이 뚜렷하게 갈려서 예측도 엇갈려요.",
+      "left": {
+        "label": "해리슨",
+        "points": [
+          "UFC 3전 전승의 현역 챔피언",
+          "페냐를 2라운드 서브미션으로 제압"
+        ]
+      },
+      "right": {
+        "label": "누네스",
+        "points": [
+          "UFC 16승 2패의 경험",
+          "밴텀급 최다 승리·최다 피니시 보유"
+        ]
+      },
+      "foot": "한 통계 모델은 해리슨 55%로 봤지만 어디까지나 예측이에요. 누네스는 3년 넘게 쉬어서 복귀 첫 경기라는 변수가 있어요.",
+      "sources": [
+        "Combat Edge",
+        "Forbes",
+        "Cageside Press"
+      ],
+      "photo_query": "Ciryl Gane",
+      "photo": {
+        "path": "image_cache\\wm_fff23f26ab6e.jpg",
+        "credit": "Photo: The White House / Public domain",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.14",
+      "title": "MSG의 밤,\n벨트 주인은 누구?",
+      "body": "UFC 334는 11월 14일 뉴욕에서 열려요. 누네스가 이기면 챔피언 복귀, 해리슨이 이기면 방어 성공이에요. 결과 나오면 다시 정리해 드릴게요.",
+      "sources": [
+        "Yahoo Sports",
+        "Cageside Press",
+        "Forbes",
+        "Paramount+",
+        "Combat Edge"
+      ]
+    }
+  ]
+}
