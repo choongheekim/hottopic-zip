@@ -102,13 +102,13 @@ def _wait_video(container_id, minutes=10):
     raise TimeoutError("릴스 처리 시간 초과")
 
 
-def publish_reel(video_path: str, caption: str, public_url: str | None = None) -> str:
+def publish_reel(video_path: str, caption: str, public_url: str | None = None, share_to_feed: bool = True) -> str:
     """① 파일 직접 업로드(resumable) → 실패 시 ② public_url(video_url) 방식."""
     user = os.getenv("IG_USER_ID") or "me"
     version = os.getenv("IG_API_VERSION", "v25.0")
     if not public_url:
         cid = _post(f"{user}/media", media_type="REELS", upload_type="resumable",
-                    caption=caption, share_to_feed="true")["id"]
+                    caption=caption, share_to_feed="true" if share_to_feed else "false")["id"]
         size = os.path.getsize(video_path)
         with open(video_path, "rb") as f:
             r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{version}/{cid}",
@@ -119,7 +119,7 @@ def publish_reel(video_path: str, caption: str, public_url: str | None = None) -
             raise RuntimeError(f"릴스 업로드 실패 {r.status_code}: {r.text[:300]}")
     else:
         cid = _post(f"{user}/media", media_type="REELS", video_url=public_url,
-                    caption=caption, share_to_feed="true")["id"]
+                    caption=caption, share_to_feed="true" if share_to_feed else "false")["id"]
     _wait_video(cid)
     media_id = _post(f"{user}/media_publish", creation_id=cid)["id"]
     print(f"[publish] 릴스 게시 완료 media_id={media_id}")
