@@ -13,6 +13,16 @@ from datetime import datetime, timedelta, timezone
 from buzz.publish import publish_carousel, publish_reel
 
 KST = timezone(timedelta(hours=9))
+
+
+def reel_caption(cap: str) -> str:
+    """인스타 해시태그 5개 제한에 맞추고 예전 문구를 정리."""
+    import re
+    lines = cap.replace("매일 3~4번", "매일 2번").split("\n")
+    tags = [t for t in re.findall(r"#\S+", lines[-1])] if lines and lines[-1].startswith("#") else []
+    if tags:
+        lines[-1] = " ".join(tags[:5])
+    return "\n".join(lines)
 now = datetime.now(KST)
 repo = os.environ["GITHUB_REPOSITORY"]
 branch = os.getenv("GITHUB_REF_NAME", "main")
@@ -28,7 +38,28 @@ for d in sorted(glob.glob("queue/*/")):
         pending.append((d, meta))
 
 changed = False
-if not pending:
+# 카드는 이미 올라갔는데 릴스(reel.mp4)만 나중에 넣은 경우 → 릴스만 올림(1개)
+reel_only = None
+for d in sorted(glob.glob("queue/*/")):
+    pj, rp = os.path.join(d, "published.json"), os.path.join(d, "reel.mp4")
+    if os.path.exists(pj) and os.path.exists(rp):
+        rec = json.load(open(pj, encoding="utf-8"))
+        if "reel_id" not in rec and "reel_error" not in rec:
+            reel_only = (d, rec)
+            break
+if reel_only and not pending:
+    d, rec = reel_only
+    cap = open(os.path.join(d, "caption.txt"), encoding="utf-8").read()
+    print(f"릴스만 게시: {d}")
+    if not dry:
+        try:
+            rec["reel_id"] = publish_reel(os.path.join(d, "reel.mp4"), reel_caption(cap), share_to_feed=False)
+        except Exception as e:
+            print(f"릴스 게시 실패: {e}")
+            rec["reel_error"] = str(e)[:300]
+        json.dump(rec, open(os.path.join(d, "published.json"), "w", encoding="utf-8"))
+        changed = True
+elif not pending:
     print("게시할 대기열 없음")
 else:
     d, meta = pending[0]
@@ -47,7 +78,7 @@ else:
         reel_p = os.path.join(d, "reel.mp4")
         if os.path.exists(reel_p):
             try:
-                rec["reel_id"] = publish_reel(reel_p, caption, share_to_feed=False)
+                rec["reel_id"] = publish_reel(reel_p, reel_caption(caption), share_to_feed=False)
             except Exception as e:
                 print(f"릴스 게시 실패(카드 게시물은 정상): {e}")
                 rec["reel_error"] = str(e)[:300]
