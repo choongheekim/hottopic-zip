@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-12",
+  "code": "JOHNPARK",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "광고·마케팅 · 맥도날드",
+      "title": [
+        "존박이 랩으로",
+        "주문했더니"
+      ],
+      "sub": "댓글 아이디어가 광고와 세트 메뉴로,\n이번엔 음원 무단 등록 논란까지",
+      "sticker": [
+        "맥도날드",
+        "존박",
+        "빅아치"
+      ],
+      "sources": [
+        "한국경제",
+        "뉴스와"
+      ],
+      "photo_query": "John Park singer",
+      "photo": {
+        "path": "image_cache\\wm_997f62686f36.jpg",
+        "credit": "Photo: Nextarity2 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "존박 세트는?",
+      "rows": [
+        [
+          "구성",
+          "빅아치·콜라·오레오 맥플러리"
+        ],
+        [
+          "시작",
+          "시청자 댓글 아이디어"
+        ],
+        [
+          "광고",
+          "10월 28일 공식 계정 공개"
+        ],
+        [
+          "신메뉴",
+          "빅아치, 10월 22일 출시"
+        ]
+      ],
+      "sources": [
+        "한국경제",
+        "ZDNet Korea",
+        "머니투데이"
+      ],
+      "photo_query": "McDonald's",
+      "photo": {
+        "path": "image_cache\\ov_ff0e261f6410.jpg",
+        "credit": "Photo: Rego - d4u.hu (Flickr) / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "댓글이 광고가 됐어요",
+      "body": [
+        "존박의 **랩 주문 영상**이 퍼지자, 한 시청자가 광고와 세트를 만들자고 댓글을 남겼어요.",
+        "맥도날드는 이를 받아 **광고**로 만들고 ‘존박 세트’까지 선보였어요."
+      ],
+      "note": {
+        "label": "빅아치",
+        "text": "신메뉴 빅아치는 출시 2주 만에 100만 개가 팔렸다고 보도됐어요."
+      },
+      "sources": [
+        "한국경제",
+        "머니투데이",
+        "세계일보"
+      ],
+      "photo_query": "Coca-Cola",
+      "photo": {
+        "path": "image_cache\\wm_997f62686f36.jpg",
+        "credit": "Photo: Nextarity2 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 랩",
+      "items": [
+        {
+          "value": "888만",
+          "label": "랩 주문 영상 조회\n11월 11일 오전 기준"
+        },
+        {
+          "value": "10.28",
+          "label": "‘주문하신 광고’\n공식 계정 공개"
+        },
+        {
+          "value": "12,400원",
+          "label": "빅아치 단품 가격\n세트는 13,900원"
+        },
+        {
+          "value": "11.2",
+          "label": "해외 플랫폼에\n음원 등록된 날"
+        }
+      ],
+      "sources": [
+        "뉴스와",
+        "ZDNet Korea",
+        "세계일보",
+        "아시아경제"
+      ],
+      "photo_query": "YouTube",
+      "photo": {
+        "path": "image_cache\\ov_ff0e261f6410.jpg",
+        "credit": "Photo: Rego - d4u.hu (Flickr) / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "존박 랩의 3주",
+      "items": [
+        {
+          "date": "10.22",
+          "text": "빅아치 국내 출시"
+        },
+        {
+          "date": "10.28",
+          "text": "맥도날드, 광고 영상 공개"
+        },
+        {
+          "date": "11.2",
+          "text": "타인 명의로 음원 등록"
+        },
+        {
+          "date": "11.10",
+          "text": "영상 조회 873만 회 돌파"
+        },
+        {
+          "date": "11.11",
+          "text": "소속사, 삭제 협의 중 밝혀"
+        }
+      ],
+      "sources": [
+        "ZDNet Korea",
+        "한국경제",
+        "뉴스와",
+        "스포츠경향"
+      ],
+      "photo_query": "Seoul",
+      "photo": {
+        "path": "image_cache\\ov_3cb88d9d9fce.jpg",
+        "credit": "Photo: JeepersMedia (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "음원이 해외에 올랐어요",
+      "body": [
+        "이 랩이 **나이지리아 업체**를 통해 ‘요요티나’라는 가수 이름으로 스포티파이 등에 올라온 것으로 알려졌어요.",
+        "소속사는 플랫폼과 기관에 **삭제와 유통 방지**를 협의 중이라고 밝혔어요."
+      ],
+      "note": {
+        "label": "아직은",
+        "text": "삭제가 끝났다는 보도는 아직 없어요."
+      },
+      "sources": [
+        "뉴데일리",
+        "아시아경제",
+        "스포티비뉴스"
+      ],
+      "photo_query": "Spotify",
+      "photo": {
+        "path": "image_cache\\ov_d93900ea927e.jpg",
+        "credit": "Photo: JeepersMedia (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "삭제?",
+      "title": "음원 삭제 여부,\n다음 소식은?",
+      "body": "소속사가 플랫폼과 삭제를 협의 중이에요. 결과가 나오면 다시 정리해 드릴게요.",
+      "sources": [
+        "한국경제",
+        "머니투데이",
+        "ZDNet Korea",
+        "세계일보",
+        "뉴스와",
+        "아시아경제"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_997f62686f36.jpg",
+        "credit": "Photo: Nextarity2 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
