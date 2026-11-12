@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-12",
+  "code": "DEVILS3",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "예능 · 넷플릭스",
+      "title": [
+        "강의 접고 나간",
+        "데블스 플랜3"
+      ],
+      "sub": "공개 직후 첫 탈락자가 된 이도,\n논란의 흐름을 7장으로 정리했어요",
+      "sticker": [
+        "넷플릭스",
+        "이도",
+        "첫탈락"
+      ],
+      "photo_query": "Netflix",
+      "photo": {
+        "path": "image_cache\\wm_8afd5b415180.jpg",
+        "credit": "Photo: Ferfive / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "데블스 플랜3는?",
+      "rows": [
+        [
+          "제목",
+          "데블스 플랜: 데드 어게인"
+        ],
+        [
+          "공개",
+          "2026년 11월 10일 · 넷플릭스"
+        ],
+        [
+          "참가자",
+          "시리즈 최다 16명이 우승자를 겨룸"
+        ],
+        [
+          "연출",
+          "정종연 PD"
+        ]
+      ],
+      "sources": [
+        "iMBC연예",
+        "위키트리",
+        "헤럴드경제"
+      ],
+      "photo_query": "Netflix",
+      "photo": {
+        "path": "image_cache\\wm_8afd5b415180.jpg",
+        "credit": "Photo: Ferfive / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "이도가 누구길래",
+      "body": [
+        "이도는 이투스 소속 **사회탐구 강사**예요. 서울대 사범대 지리교육과를 나왔고, 지난해 넷플릭스 연애 예능에도 나왔어요.",
+        "지난해 넷플릭스 행사에서 **정종연 PD**를 만나 직접 출연을 부탁했다고 제작발표회에서 밝혔어요."
+      ],
+      "note": {
+        "label": "배경",
+        "text": "지난해 8월에도 건강 문제로 일부 신규 강의만 제공한다는 공지가 있었다고 보도됐어요."
+      },
+      "sources": [
+        "위키트리",
+        "헤럴드경제",
+        "일간스포츠"
+      ],
+      "photo_query": "Seoul National University",
+      "photo": {
+        "path": "image_cache\\wm_8afd5b415180.jpg",
+        "credit": "Photo: Ferfive / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "논란의 2주",
+      "items": [
+        {
+          "date": "10.29",
+          "text": "건강 이유로 수능 대비 강의 중단 공지"
+        },
+        {
+          "date": "11.5",
+          "text": "이태원에서 열린 제작발표회에 참석"
+        },
+        {
+          "date": "11.9",
+          "text": "이투스 공식 사과문 게재"
+        },
+        {
+          "date": "11.10",
+          "text": "이도 자필 사과문, 17개 강좌 비공개 보도, 시즌3 공개"
+        },
+        {
+          "date": "11.11",
+          "text": "첫 탈락자로 이도 보도"
+        }
+      ],
+      "sources": [
+        "위키트리",
+        "일간스포츠",
+        "헤럴드경제",
+        "스포티비뉴스"
+      ],
+      "photo_query": "Itaewon",
+      "photo": {
+        "path": "image_cache\\wm_8afd5b415180.jpg",
+        "credit": "Photo: Ferfive / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "첫 탈락 경위",
+      "body": [
+        "이도는 1라운드 메인 매치 **‘양자 택일’에서 최하위**를 기록했어요.",
+        "이어진 데스 매치 **‘기억 포커’에서 재재에게 져** 가장 먼저 떠났다고 여러 매체가 전했어요."
+      ],
+      "note": {
+        "label": "본인 소감",
+        "text": "억울하기보다, 한 번도 활약하지 못해 아쉽다는 취지로 말했어요."
+      },
+      "sources": [
+        "일간스포츠",
+        "iMBC연예",
+        "위키트리"
+      ],
+      "photo_query": "Hong Jin-ho",
+      "photo": {
+        "path": "image_cache\\wm_8afd5b415180.jpg",
+        "credit": "Photo: Ferfive / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "debate",
+      "title": "엇갈리는 시선",
+      "lead": "수능을 3주 앞두고 강의를 접은 출연에 **비판 여론**이 컸어요.",
+      "left": {
+        "label": "수강생 쪽",
+        "points": [
+          "강의 공백에 실망했다는 반응",
+          "사과문 이후 강좌 비공개 조치"
+        ]
+      },
+      "right": {
+        "label": "이도 입장",
+        "points": [
+          "건강 회복 때까지 활동 중단 밝힘",
+          "계약된 방송 일부는 남아 있다고 설명"
+        ]
+      },
+      "foot": "이투스의 계약 종료 여부는 공식 확인되지 않았어요.",
+      "sources": [
+        "위키트리",
+        "일간스포츠",
+        "스포티비뉴스"
+      ],
+      "photo_query": "Jang Dong-min",
+      "photo": {
+        "path": "image_cache\\wm_8afd5b415180.jpg",
+        "credit": "Photo: Ferfive / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.19",
+      "title": "수능 날,\n유배지 반전은?",
+      "body": "2027학년도 수능은 11월 19일이에요. 초반 탈락자가 유배지에서 한 번 더 살아날 기회가 있다고 5회 말미에 공개됐어요.",
+      "sources": [
+        "iMBC연예",
+        "일간스포츠",
+        "헤럴드경제",
+        "스포티비뉴스",
+        "위키트리"
+      ],
+      "photo_query": "Ha Seok-jin",
+      "photo": {
+        "path": "image_cache\\wm_8afd5b415180.jpg",
+        "credit": "Photo: Ferfive / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
