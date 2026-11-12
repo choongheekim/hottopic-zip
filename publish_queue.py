@@ -10,7 +10,7 @@ import shutil
 import sys
 from datetime import datetime, timedelta, timezone
 
-from buzz.publish import publish_carousel
+from buzz.publish import publish_carousel, publish_reel
 
 KST = timezone(timedelta(hours=9))
 now = datetime.now(KST)
@@ -40,9 +40,18 @@ else:
         print("DRY_RUN — 실제 게시 안 함", urls[:2])
     else:
         media_id = publish_carousel(urls, caption)
-        json.dump({"media_id": media_id, "published_at": now.isoformat()},
-                  open(os.path.join(d, "published.json"), "w", encoding="utf-8"))
+        rec = {"media_id": media_id, "published_at": now.isoformat()}
+        json.dump(rec, open(os.path.join(d, "published.json"), "w", encoding="utf-8"))
         changed = True
+        # 같은 주제의 릴스(새로운 사람에게 닿는 통로). 피드 격자에는 안 겹치게 릴스 탭에만.
+        reel_p = os.path.join(d, "reel.mp4")
+        if os.path.exists(reel_p):
+            try:
+                rec["reel_id"] = publish_reel(reel_p, caption, share_to_feed=False)
+            except Exception as e:
+                print(f"릴스 게시 실패(카드 게시물은 정상): {e}")
+                rec["reel_error"] = str(e)[:300]
+            json.dump(rec, open(os.path.join(d, "published.json"), "w", encoding="utf-8"))
     if len(pending) > 1:
         print(f"남은 대기 {len(pending) - 1}개 → 다음 실행 때 게시")
 
