@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-12",
+  "code": "MORENO",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "스포츠 · 축구 국가대표",
+      "title": [
+        "모레노호",
+        "사우디전"
+      ],
+      "sub": "도하 원정 2연전, 13일 밤 11시 30분\n첫 경기를 7장으로 정리했어요",
+      "sticker": [
+        "도하",
+        "원정",
+        "2연전"
+      ],
+      "photo_query": "South Korea national football team",
+      "photo": {
+        "path": "image_cache\\ov_5eaa10d35c1d.jpg",
+        "credit": "Photo: goranhas (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "원정 2연전은?",
+      "rows": [
+        [
+          "상대",
+          "사우디(13일)·카타르(17일)"
+        ],
+        [
+          "1차전",
+          "13일 밤 11시 30분(한국)"
+        ],
+        [
+          "장소",
+          "도하 자심 빈 하마드 경기장"
+        ],
+        [
+          "사령탑",
+          "모레노 임시 감독"
+        ]
+      ],
+      "sources": [
+        "이투데이",
+        "네이트 스포츠",
+        "FIFA"
+      ],
+      "photo_query": "Jassim bin Hamad Stadium",
+      "photo": {
+        "path": "image_cache\\wm_1e710dd25122.jpg",
+        "credit": "Photo: Tsutomu Takasu / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "은퇴설 3인방도 승선",
+      "body": [
+        "**김민재·황인범·황희찬**도 명단에 올랐어요. 대표팀 은퇴를 고민했다는 **보도**가 있던 선수들이에요.",
+        "주장 완장은 그대로 **손흥민**이 차요. 26명 명단은 10월 29일에 발표됐어요."
+      ],
+      "note": {
+        "label": "새 얼굴",
+        "text": "손정범·신민하가 A대표팀에 처음 뽑혔어요."
+      },
+      "sources": [
+        "경향신문",
+        "일간스포츠",
+        "뉴시스"
+      ],
+      "photo_query": "Kim Min-jae",
+      "photo": {
+        "path": "image_cache\\wm_eeaa7cbc9cbe.jpg",
+        "credit": "Photo: beIN SPORTS Türkiye / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "도하까지의 길",
+      "items": [
+        {
+          "date": "2026.10.29",
+          "text": "11월 A매치 소집 명단 발표"
+        },
+        {
+          "date": "11.8",
+          "text": "김민재 등 해외파 일부 먼저 도하 합류"
+        },
+        {
+          "date": "11.9",
+          "text": "카타르 도하 입성"
+        },
+        {
+          "date": "11.10",
+          "text": "도하에서 첫 완전체 훈련"
+        },
+        {
+          "date": "11.11",
+          "text": "사우디전 대비 첫 전술훈련"
+        }
+      ],
+      "sources": [
+        "이투데이",
+        "네이트 스포츠",
+        "SBS"
+      ],
+      "photo_query": "Incheon International Airport",
+      "photo": {
+        "path": "image_cache\\ov_5eaa10d35c1d.jpg",
+        "credit": "Photo: goranhas (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 2연전",
+      "items": [
+        {
+          "value": "2경기",
+          "label": "도하에서 치르는\n사우디·카타르전"
+        },
+        {
+          "value": "2명",
+          "label": "이번에 처음 뽑힌\n손정범·신민하"
+        },
+        {
+          "value": "6경기",
+          "label": "9~11월 평가전,\n감독 평가의 기준"
+        },
+        {
+          "value": "23:30",
+          "label": "사우디전 킥오프\n한국시간 13일"
+        }
+      ],
+      "sources": [
+        "경향신문",
+        "일간스포츠",
+        "네이트 스포츠"
+      ],
+      "photo_query": "Doha",
+      "photo": {
+        "path": "image_cache\\wm_da7a8d902006.jpg",
+        "credit": "Photo: Okansoyluturk / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "승부 열쇠는 세트피스",
+      "body": [
+        "11일 첫 전술훈련은 **세트피스**에 집중했어요. 측면 빌드업 뒤 슈팅, 코너킥 헤더를 반복했어요.",
+        "사우디 수비의 **측면 뒷공간**을 노리는 연습이에요."
+      ],
+      "note": {
+        "label": "훈련 일정",
+        "text": "10일 첫 완전체 훈련, 11일 전술훈련 시작."
+      },
+      "sources": [
+        "SBS",
+        "재경일보",
+        "톱스타뉴스"
+      ],
+      "photo_query": "Saudi Arabia national football team",
+      "photo": {
+        "path": "image_cache\\wm_1dfb8f92f07a.jpg",
+        "credit": "Photo: Анна Нэсси / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.17",
+      "title": "카타르전도\n이어져요",
+      "body": "17일 밤 11시 카타르와 2차전이에요. 모레노 감독의 현재 계약은 27일에 끝나고, 협회가 두 경기 뒤 정식 계약을 정해요.",
+      "sources": [
+        "이투데이",
+        "경향신문",
+        "일간스포츠",
+        "SBS",
+        "재경일보"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_1e710dd25122.jpg",
+        "credit": "Photo: Tsutomu Takasu / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
