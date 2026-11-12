@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-12",
+  "code": "COACHELLA",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "해외 유행 · 음악 페스티벌",
+      "title": [
+        "내년 4월",
+        "코첼라 라인업"
+      ],
+      "sub": "지수·NCT·베이비몬스터·이날치까지\n한국 아티스트가 대거 이름을 올렸어요",
+      "sticker": [
+        "코첼라",
+        "K팝",
+        "첫 입성"
+      ],
+      "photo_query": "Coachella Valley Music and Arts Festival",
+      "photo": {
+        "path": "image_cache\\wm_74998d42d9da.jpg",
+        "credit": "Photo: Vision360media / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "코첼라는 무엇?",
+      "rows": [
+        [
+          "이름",
+          "코첼라 밸리 뮤직&아츠"
+        ],
+        [
+          "장소",
+          "미국 캘리포니아 인디오"
+        ],
+        [
+          "무대",
+          "엠파이어 폴로 클럽"
+        ],
+        [
+          "2027",
+          "4월 9~11일·16~18일"
+        ]
+      ],
+      "sources": [
+        "경향신문",
+        "한국경제",
+        "이투데이"
+      ],
+      "photo_query": "Empire Polo Club",
+      "photo": {
+        "path": "image_cache\\wm_f93c5bd4c10b.jpg",
+        "credit": "Photo: Raph_PH / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "헤드라이너 3팀",
+      "body": [
+        "공식 라인업은 현지시간 10일에 공개됐어요. 간판 무대는 **두아 리파·테임 임팔라·SZA**가 하루씩 맡아요.",
+        "**마돈나**도 출연하고, **대디 양키**는 별도의 특별 무대를 꾸며요."
+      ],
+      "note": {
+        "label": "참고",
+        "text": "BTS는 이번 라인업에서 확인되지 않았어요."
+      },
+      "sources": [
+        "경향신문",
+        "이투데이",
+        "한국경제",
+        "Consequence"
+      ],
+      "photo_query": "Dua Lipa",
+      "photo": {
+        "path": "image_cache\\wm_63db151f9666.jpg",
+        "credit": "Photo: Harald Krichel / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "한국 아티스트 총출동",
+      "body": [
+        "**지수**는 솔로로 4월 9·16일 무대에 서요. 블랙핑크로 2023년 헤드라이너를 맡은 뒤 4년 만이에요.",
+        "**NCT**는 10·17일, **베이비몬스터**는 11·18일에 처음으로 코첼라 무대에 올라요."
+      ],
+      "note": {
+        "label": "NCT",
+        "text": "별도의 유닛명 없이 ‘NCT’라는 이름으로 라인업에 올랐어요."
+      },
+      "sources": [
+        "경향신문",
+        "한국경제",
+        "이투데이"
+      ],
+      "photo_query": "Jisoo",
+      "photo": {
+        "path": "image_cache\\wm_74998d42d9da.jpg",
+        "credit": "Photo: Vision360media / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "국악 밴드도 합류",
+      "body": [
+        "국악 기반 밴드 **이날치**도 라인업에 올랐어요. 코첼라 첫 출연이에요.",
+        "독일 베를린 중심으로 활동하는 DJ **페기 구**도 함께해요. 두 팀 모두 4월 9·16일 무대예요."
+      ],
+      "note": null,
+      "sources": [
+        "경향신문",
+        "텐아시아"
+      ],
+      "photo_query": "Leenalchi",
+      "photo": {
+        "path": "image_cache\\wm_707c97f65a23.jpg",
+        "credit": "Photo: Stephen and Helen Jones from England / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 코첼라",
+      "items": [
+        {
+          "value": "2주",
+          "label": "4월 9~11일\n16~18일 두 번 열려요"
+        },
+        {
+          "value": "3팀",
+          "label": "두아 리파·테임 임팔라\nSZA 헤드라이너"
+        },
+        {
+          "value": "5팀",
+          "label": "지수·NCT·베이비몬스터\n이날치·페기 구"
+        },
+        {
+          "value": "4년",
+          "label": "지수가 2023년 이후\n솔로로 서기까지"
+        }
+      ],
+      "sources": [
+        "경향신문",
+        "텐아시아",
+        "이투데이"
+      ],
+      "photo_query": "Peggy Gou",
+      "photo": {
+        "path": "image_cache\\wm_f93c5bd4c10b.jpg",
+        "credit": "Photo: Raph_PH / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "코첼라와 K팝",
+      "items": [
+        {
+          "date": "2019",
+          "text": "블랙핑크 첫 코첼라 출연"
+        },
+        {
+          "date": "2023",
+          "text": "블랙핑크, K팝 그룹 최초 헤드라이너"
+        },
+        {
+          "date": "2026.4",
+          "text": "2027년 개최 일정 공개"
+        },
+        {
+          "date": "11.10",
+          "text": "현지시간, 2027 라인업 공개"
+        },
+        {
+          "date": "2027.4",
+          "text": "9~11일, 16~18일 개최"
+        }
+      ],
+      "sources": [
+        "경향신문",
+        "이투데이",
+        "한국경제",
+        "mxdwn"
+      ],
+      "photo_query": "Babymonster",
+      "photo": {
+        "path": "image_cache\\wm_63db151f9666.jpg",
+        "credit": "Photo: Harald Krichel / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "4.9",
+      "title": "2027년 4월 9일\n코첼라가 열려요",
+      "body": "두 주말에 걸쳐 열려요. 세부 타임테이블이 나오면 한국 아티스트 무대 시간도 다시 정리해 드릴게요.",
+      "sources": [
+        "경향신문",
+        "이투데이",
+        "한국경제",
+        "텐아시아"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_707c97f65a23.jpg",
+        "credit": "Photo: Stephen and Helen Jones from England / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
