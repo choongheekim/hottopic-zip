@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-12",
+  "code": "POSSIBLE",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "영화 · OTT",
+      "title": [
+        "이창동의 신작",
+        "가능한 사랑"
+      ],
+      "sub": "극장에서 베니스까지 갔던 영화가\n넷플릭스 안방으로 왔어요",
+      "sticker": [
+        "8년만",
+        "베니스",
+        "넷플릭스"
+      ],
+      "photo_query": "Lee Chang-dong",
+      "photo": {
+        "path": "image_cache\\wm_9837e2b70d1f.jpg",
+        "credit": "Photo: Sarran Hamilton / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "가능한 사랑이란?",
+      "rows": [
+        [
+          "감독",
+          "이창동 · 버닝 이후 8년 만의 신작"
+        ],
+        [
+          "출연",
+          "전도연·설경구·조인성·조여정"
+        ],
+        [
+          "극장",
+          "9월 23일 국내 개봉"
+        ],
+        [
+          "OTT",
+          "11월 6일 넷플릭스 전 세계 공개"
+        ]
+      ],
+      "sources": [
+        "텐아시아",
+        "넷플릭스",
+        "네이트뉴스"
+      ],
+      "photo_query": "Jeon Do-yeon",
+      "photo": {
+        "path": "image_cache\\wm_d41aaad19e6b.jpg",
+        "credit": "Photo: Marlene Landu / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "극장에서 먼저 만났어요",
+      "body": [
+        "이 영화는 **베니스 영화제 경쟁 부문**에서 심사위원대상(은사자상)을 받았어요. 국제영화비평가연맹상도 함께 받았어요.",
+        "국내 투자 유치가 쉽지 않았지만, 결국 **넷플릭스**와 손잡고 완성됐다고 보도됐어요."
+      ],
+      "note": {
+        "label": "극장 성적",
+        "text": "약 2주간 제한 상영, 관객 약 23만 명으로 보도됐어요."
+      },
+      "sources": [
+        "헤럴드경제",
+        "텐아시아",
+        "네이트뉴스"
+      ],
+      "photo_query": "Venice Film Festival",
+      "photo": {
+        "path": "image_cache\\wm_3cf515b30c67.jpg",
+        "credit": "Photo: Marlene Landu / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "가능한 사랑의 길",
+      "items": [
+        {
+          "date": "2026.9",
+          "text": "베니스 영화제 경쟁 부문, 심사위원대상"
+        },
+        {
+          "date": "9.23",
+          "text": "국내 극장 개봉"
+        },
+        {
+          "date": "11.6",
+          "text": "개봉 44일 만에 넷플릭스 공개"
+        },
+        {
+          "date": "11.7",
+          "text": "한국 넷플릭스 일간 영화 1위, 9일까지 사흘 연속"
+        }
+      ],
+      "sources": [
+        "텐아시아",
+        "헤럴드경제",
+        "위키트리"
+      ],
+      "photo_query": "Sol Kyung-gu",
+      "photo": {
+        "path": "image_cache\\wm_30ebda171c27.jpg",
+        "credit": "Photo: LR.127 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "안방 관객의 반응은",
+      "lead": "극장에서 약 23만 명이 봤고, 이제 넷플릭스로 더 많은 관객을 만나요.",
+      "left": {
+        "label": "영화제 평가",
+        "points": [
+          "베니스 심사위원대상 수상",
+          "국제영화비평가연맹상도 수상"
+        ]
+      },
+      "right": {
+        "label": "넷플릭스 전략",
+        "points": [
+          "190여 개국 공개",
+          "오스카 한국 대표 출품작"
+        ]
+      },
+      "foot": "공개 직후라 대중 평가는 아직 갈리는 중이에요. 시청 수치는 주간 순위로 확인해 볼 수 있어요.",
+      "sources": [
+        "네이트뉴스",
+        "디지털데일리",
+        "텐아시아"
+      ],
+      "photo_query": "Netflix",
+      "photo": {
+        "path": "image_cache\\wm_9837e2b70d1f.jpg",
+        "credit": "Photo: Sarran Hamilton / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "왜 지금 화제일까",
+      "body": [
+        "**버닝 이후 8년** 만의 이창동 감독 신작에 **톱배우 4명**이 모였고, 해외 영화제 평가까지 더해졌어요.",
+        "여기에 극장 개봉 뒤 OTT로 오는 **새로운 공개 방식**도 이야기거리가 됐어요."
+      ],
+      "note": null,
+      "sources": [
+        "텐아시아",
+        "넷플릭스"
+      ],
+      "photo_query": "Jo In-sung",
+      "photo": {
+        "path": "image_cache\\wm_4902f1a5d0f3.jpg",
+        "credit": "Photo: Marlene Landu / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "오스카",
+      "title": "오스카 후보에\n오를 수 있을까",
+      "body": "영진위가 국제장편영화 부문 한국 대표로 선정했다고 보도됐어요. 내년 초 후보 발표 때 다시 정리해 드릴게요.",
+      "sources": [
+        "디지털데일리",
+        "한국경제",
+        "텐아시아",
+        "네이트뉴스",
+        "넷플릭스"
+      ],
+      "photo_query": "Academy Awards",
+      "photo": {
+        "path": "image_cache\\wm_d41aaad19e6b.jpg",
+        "credit": "Photo: Marlene Landu / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
