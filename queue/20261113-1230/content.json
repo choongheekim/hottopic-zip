@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-13",
+  "code": "CHIIKAWA",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "영화 · 일본 애니",
+      "title": [
+        "300만 눈앞",
+        "극장판 치이카와"
+      ],
+      "sub": "5주 연속 주말 1위를 지킨\n‘인어 섬의 비밀’ 흥행을 7장으로 정리했어요",
+      "sticker": [
+        "5주 1위",
+        "283만",
+        "특전"
+      ],
+      "sources": [
+        "메트로서울",
+        "경기일보",
+        "재경일보"
+      ],
+      "photo_query": "Chiikawa",
+      "photo": {
+        "path": "image_cache\\wm_e8e652fc8edd.jpg",
+        "credit": "Photo: Tieguanyin1990 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "치이카와는 무엇?",
+      "rows": [
+        [
+          "작품",
+          "극장판 치이카와: 인어 섬의 비밀"
+        ],
+        [
+          "장르",
+          "일본 애니메이션"
+        ],
+        [
+          "원작",
+          "일본 인기 캐릭터 만화 ‘치이카와’"
+        ],
+        [
+          "특징",
+          "극장·주차별로 바뀌는 특전"
+        ]
+      ],
+      "sources": [
+        "재경일보",
+        "경기일보",
+        "이투데이"
+      ],
+      "photo_query": "Lotte Cinema",
+      "photo": {
+        "path": "image_cache\\wm_464085501fac.jpg",
+        "credit": "Photo: Striker9498 / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "왜 계속 1위일까",
+      "body": [
+        "**5주 연속 주말 1위**를 지키며 신작 ‘최종면접’도 주말 박스오피스에서 제쳤어요.",
+        "기사들은 원작 **팬덤**과 극장별 **주차별 특전**을 흥행 요인으로 꼽아요."
+      ],
+      "note": {
+        "label": "관객층",
+        "text": "CGV 집계에서 20대가 45%로 가장 많고, 30대가 20%로 뒤를 이었어요."
+      },
+      "sources": [
+        "이투데이",
+        "재경일보",
+        "신아일보"
+      ],
+      "photo_query": "Megabox",
+      "photo": {
+        "path": "image_cache\\wm_842774e6aced.jpg",
+        "credit": "Photo: Mobius6 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 흥행",
+      "items": [
+        {
+          "value": "283만",
+          "label": "12일 기준 누적\n관객 수"
+        },
+        {
+          "value": "14.9만",
+          "label": "지난 주말(6~8일)\n주말 관객 수"
+        },
+        {
+          "value": "5주",
+          "label": "주말 박스오피스\n연속 1위"
+        },
+        {
+          "value": "17만",
+          "label": "300만까지\n남은 관객 수"
+        }
+      ],
+      "sources": [
+        "경기일보",
+        "이코노믹리뷰",
+        "신아일보"
+      ],
+      "photo_query": "Korean Film Council",
+      "photo": {
+        "path": "image_cache\\wm_e8e652fc8edd.jpg",
+        "credit": "Photo: Tieguanyin1990 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "치이카와의 질주",
+      "items": [
+        {
+          "date": "10.24",
+          "text": "개봉 25일 만에 200만 돌파"
+        },
+        {
+          "date": "11.8",
+          "text": "5주 연속 주말 1위, 누적 278만"
+        },
+        {
+          "date": "11.12",
+          "text": "누적 283만 관객 돌파"
+        },
+        {
+          "date": "11.18",
+          "text": "임영웅 공연실황 개봉 예정"
+        },
+        {
+          "date": "11.21~22",
+          "text": "300만 돌파 전망(수능 특수)"
+        }
+      ],
+      "sources": [
+        "이투데이",
+        "경기일보",
+        "이코노믹리뷰",
+        "재경일보"
+      ],
+      "photo_query": "CGV",
+      "photo": {
+        "path": "image_cache\\wm_6a40d59784e0.jpg",
+        "credit": "Photo: Windmemories / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "300만 언제 넘을까",
+      "lead": "18일부터 **경쟁작 변수**가 생겨요. 예매율 순위는 이미 뒤집혔어요.",
+      "left": {
+        "label": "수능 특수",
+        "points": [
+          "수능 뒤 관객 증가 전망",
+          "21~22일 돌파 가능성"
+        ]
+      },
+      "right": {
+        "label": "임영웅 신작",
+        "points": [
+          "18일 공연실황 개봉",
+          "예매율 15.9%로 선두"
+        ]
+      },
+      "foot": "13일 오전 9시 예매율은 임영웅 15.9%, 치이카와 9.5%예요. 9일 오전엔 치이카와가 16.8%로 1위였어요.",
+      "sources": [
+        "이코노믹리뷰",
+        "이투데이",
+        "연합뉴스"
+      ],
+      "photo_query": "Lim Young-woong",
+      "photo": {
+        "path": "image_cache\\wm_464085501fac.jpg",
+        "credit": "Photo: Striker9498 / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "300만",
+      "title": "돌파는 언제,\n1위는 지킬까?",
+      "body": "전망대로면 21~22일 주말쯤 300만 돌파가 가능해요. 18일 개봉하는 임영웅 공연실황과의 대결이 관전 포인트예요.",
+      "share": "치이카와 좋아하는 친구한테 보내기",
+      "sources": [
+        "경기일보",
+        "이코노믹리뷰",
+        "재경일보",
+        "이투데이",
+        "신아일보",
+        "메트로서울"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_842774e6aced.jpg",
+        "credit": "Photo: Mobius6 / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
