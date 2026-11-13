@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-13",
+  "code": "SAMSUNGFA",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "스포츠 · 프로야구 FA",
+      "title": [
+        "우승 뒤 FA",
+        "구자욱·원태인"
+      ],
+      "sub": "12년 만에 정상에 선 삼성의 두 기둥,\n이제 시장에서 어디로 갈까요",
+      "sticker": [
+        "FA",
+        "삼성",
+        "MLB?"
+      ],
+      "sources": [
+        "MK스포츠",
+        "뉴스핌"
+      ],
+      "photo_query": "Koo Ja-wook",
+      "photo": {
+        "path": "image_cache\\ov_ce0e4efb51a1.jpg",
+        "credit": "Photo: ~Mers (Flickr) / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "FA 시장 한눈에",
+      "rows": [
+        [
+          "공시일",
+          "11월 13일, 자격 선수 28명"
+        ],
+        [
+          "등급",
+          "A등급 6명·B 14명·C 8명"
+        ],
+        [
+          "A등급",
+          "구자욱·원태인·홍창기 등"
+        ],
+        [
+          "보상",
+          "A등급은 연봉 300% 보상금 규정"
+        ]
+      ],
+      "sources": [
+        "MK스포츠",
+        "뉴스핌",
+        "이투데이",
+        "미디어펜"
+      ],
+      "photo_query": "Korea Baseball Organization",
+      "photo": {
+        "path": "image_cache\\wm_5e91a89e318f.jpg",
+        "credit": "Photo: Trainholic / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "12년 만의 우승 직후",
+      "body": [
+        "삼성은 kt를 **4승 1패**로 꺾고 12년 만에 한국시리즈 정상에 올랐어요. 1차전을 내주고도 **4연승**을 했어요.",
+        "구자욱은 5경기 타율 **0.500**으로 시리즈 MVP에 올랐고, 원태인은 5차전 데일리 MVP를 받았어요."
+      ],
+      "note": {
+        "label": "업셋 우승",
+        "text": "정규리그 1위 kt를 꺾고 통산 9번째 우승을 차지했어요."
+      },
+      "sources": [
+        "연합뉴스",
+        "위키트리",
+        "노컷뉴스"
+      ],
+      "photo_query": "Daegu Samsung Lions Park",
+      "photo": {
+        "path": "image_cache\\wm_2c60fa16ce26.jpg",
+        "credit": "Photo: Choi2451 / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "구자욱, 미국 간다?",
+      "body": [
+        "구자욱은 우승 직후 미국 무대에 도전해 보고 싶다는 뜻을 밝혔어요.",
+        "올해 한국시리즈 MVP인 그는 인정 연수 12년의 신규 **A등급**이에요. FA라서 포스팅 절차 없이 해외 진출을 모색할 수 있어요."
+      ],
+      "note": {
+        "label": "아직 확정 아님",
+        "text": "해외 도전 의사일 뿐 행선지는 정해지지 않았고, 삼성 잔류도 열려 있어요."
+      },
+      "sources": [
+        "뉴스핌",
+        "경향신문",
+        "서울경제"
+      ],
+      "photo_query": "Samsung Lions",
+      "photo": {
+        "path": "image_cache\\ov_5f36743fa209.jpg",
+        "credit": "Photo: ~Mers (Flickr) / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "원태인의 선택",
+      "body": [
+        "삼성 에이스 원태인도 이번 겨울 시장에 나와요. 한국시리즈 뒤 해외 에이전트를 선임했다고 알려졌고, 해외 진출 가능성이 함께 거론돼요.",
+        "삼성은 원태인과 구자욱을 모두 붙잡겠다는 입장으로 보도됐어요. 다만 시즌 전 다년 계약은 합의에 이르지 못했어요."
+      ],
+      "note": {
+        "label": "보상금",
+        "text": "타 팀 영입 시 A등급 규정상 연봉 10억 원의 300%인 30억 원 보상금이 거론돼요."
+      },
+      "sources": [
+        "경향신문",
+        "일요신문",
+        "네이트 스포츠"
+      ],
+      "photo_query": "Won Tae-in",
+      "photo": {
+        "path": "image_cache\\ov_ce0e4efb51a1.jpg",
+        "credit": "Photo: ~Mers (Flickr) / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "FA 일정",
+      "items": [
+        {
+          "date": "11.8",
+          "text": "삼성, 한국시리즈 5차전 승리로 우승"
+        },
+        {
+          "date": "11.13",
+          "text": "KBO, FA 자격 선수 28명 공시"
+        },
+        {
+          "date": "11.15",
+          "text": "FA 권리 행사 승인 신청 마감"
+        },
+        {
+          "date": "11.16",
+          "text": "KBO, FA 승인 선수 공시"
+        },
+        {
+          "date": "11.17",
+          "text": "국내외 모든 구단과 계약 교섭 시작"
+        }
+      ],
+      "sources": [
+        "MK스포츠",
+        "뉴스핌",
+        "이투데이"
+      ],
+      "photo_query": "kt wiz",
+      "photo": {
+        "path": "image_cache\\wm_652444671afb.jpg",
+        "credit": "Photo: Nt / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.16",
+      "title": "FA 승인 선수\n누가 신청할까?",
+      "body": "11월 16일 승인 선수가 공시되고 17일부터 교섭이 시작돼요. 구자욱·원태인의 행선지를 지켜봐요.",
+      "share": "삼성 팬 친구한테 보내기",
+      "sources": [
+        "MK스포츠",
+        "뉴스핌",
+        "이투데이",
+        "경향신문",
+        "노컷뉴스",
+        "연합뉴스"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_5e91a89e318f.jpg",
+        "credit": "Photo: Trainholic / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
