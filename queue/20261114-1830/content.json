@@ -1,0 +1,204 @@
+{
+  "date": "2026-11-14",
+  "code": "MINHEEJIN",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "연예 · K팝 소송",
+      "title": [
+        "민희진 발언,",
+        "법원의 판단은"
+      ],
+      "sub": "‘아일릿이 뉴진스 카피’ 발언 소송 1심,\n25억 청구가 모두 기각됐어요",
+      "sticker": [
+        "25억",
+        "기각",
+        "항소"
+      ],
+      "sources": [
+        "뉴스핌",
+        "마이데일리",
+        "중앙이코노미뉴스"
+      ],
+      "photo_query": "Min Hee-jin",
+      "photo": {
+        "path": "image_cache\\wm_aa2f6e7f0f4d.jpg",
+        "credit": "Photo: K-POPIT 케이팝잇 / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "이번 소송 한눈에",
+      "rows": [
+        [
+          "원고",
+          "빌리프랩 · 쏘스뮤직"
+        ],
+        [
+          "피고",
+          "민희진 전 어도어 대표"
+        ],
+        [
+          "법원",
+          "서울서부지법 민사합의12부"
+        ],
+        [
+          "선고일",
+          "2026년 11월 13일 (1심)"
+        ]
+      ],
+      "sources": [
+        "뉴스핌",
+        "마이데일리",
+        "중앙이코노미뉴스"
+      ],
+      "photo_query": "Seoul Western District Court",
+      "photo": {
+        "path": "image_cache\\wm_d0ff5d553ec3.jpg",
+        "credit": "Photo: K-POPIT 케이팝잇 / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "소송은 왜 시작됐나",
+      "body": [
+        "2024년 4월 기자회견에서 민희진 전 대표가 **아일릿이 뉴진스를 베꼈다**는 취지로 말했어요.",
+        "빌리프랩은 **명예훼손·업무방해**라며, 쏘스뮤직은 데뷔 관련 발언이 허위라며 각각 소송을 냈어요."
+      ],
+      "note": {
+        "label": "맞소송",
+        "text": "민 전 대표도 빌리프랩을 상대로 50억 원 반소를 냈어요."
+      },
+      "sources": [
+        "중앙이코노미뉴스",
+        "스타뉴스"
+      ],
+      "photo_query": "Illit",
+      "photo": {
+        "path": "image_cache\\wm_fccfb10b1569.jpg",
+        "credit": "Photo: 티비텐 TV10 / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "법원이 본 ‘카피’",
+      "body": [
+        "재판부는 표절·카피 같은 표현을 **사실 적시가 아닌 주관적 평가, 의견 표명**으로 봤어요.",
+        "창작물 유사성에 대한 비평은 **표현의 자유**로 폭넓게 보장돼야 한다는 취지로 판단했어요."
+      ],
+      "note": {
+        "label": "주의",
+        "text": "형사 사건 결과가 정해진 것은 아니에요."
+      },
+      "sources": [
+        "스타뉴스",
+        "뉴스컬처",
+        "재경일보"
+      ],
+      "photo_query": "Belift Lab",
+      "photo": {
+        "path": "image_cache\\wm_aa2f6e7f0f4d.jpg",
+        "credit": "Photo: K-POPIT 케이팝잇 / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 소송",
+      "items": [
+        {
+          "value": "20억",
+          "label": "빌리프랩이\n청구한 금액"
+        },
+        {
+          "value": "5억",
+          "label": "쏘스뮤직이\n청구한 금액"
+        },
+        {
+          "value": "25억",
+          "label": "두 소송\n청구액 합계"
+        },
+        {
+          "value": "50억",
+          "label": "민희진 측\n반소 청구액"
+        }
+      ],
+      "sources": [
+        "마이데일리",
+        "중앙이코노미뉴스",
+        "제이앤엠뉴스"
+      ],
+      "photo_query": "Source Music",
+      "photo": {
+        "path": "image_cache\\wm_d0ff5d553ec3.jpg",
+        "credit": "Photo: K-POPIT 케이팝잇 / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "debate",
+      "title": "양쪽 반응",
+      "lead": "판결 직후 양측 입장이 엇갈렸어요. 반소도 **기각**됐어요.",
+      "left": {
+        "label": "빌리프랩·쏘스",
+        "points": [
+          "판결에 반발, 즉각 항소",
+          "상급심 판단 구하겠다"
+        ]
+      },
+      "right": {
+        "label": "민희진 측",
+        "text": "",
+        "points": [
+          "상식적인 판단이라는 입장",
+          "소모적 논란 끝내겠다"
+        ]
+      },
+      "foot": "반소는 뉴진스의 성과가 개인이 아닌 어도어 등 법인에 귀속된다는 이유 등으로 기각됐어요.",
+      "sources": [
+        "뉴스핌",
+        "스타데일리뉴스",
+        "뉴스컬처"
+      ],
+      "photo_query": "NewJeans",
+      "photo": {
+        "path": "image_cache\\wm_c97cdb16189c.jpg",
+        "credit": "Photo: TVTEN / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "항소",
+      "title": "2심에서 달라질까,\n항소심 지켜봐요",
+      "body": "빌리프랩·쏘스뮤직이 항소 뜻을 밝혀 다툼은 항소심으로 이어질 전망이에요. 일정이 나오면 다시 정리할게요.",
+      "share": "뉴진스·아일릿 둘 다 아는 친구",
+      "sources": [
+        "뉴스핌",
+        "마이데일리",
+        "중앙이코노미뉴스",
+        "스타뉴스",
+        "재경일보",
+        "뉴스컬처"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_fccfb10b1569.jpg",
+        "credit": "Photo: 티비텐 TV10 / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
