@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-14",
+  "code": "MEOMURU",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "음악 · 멜론 차트",
+      "title": [
+        "AI가 부른 노래",
+        "멜론 1위 찍다"
+      ],
+      "sub": "머무르 ‘꿈꾸던 어른이 되었나요?’\n사상 첫 AI 활용곡 1위, 7장으로 정리했어요",
+      "sticker": [
+        "AI",
+        "멜론",
+        "1위"
+      ],
+      "sources": [
+        "경향신문",
+        "헤럴드경제",
+        "이투데이",
+        "톱스타뉴스"
+      ],
+      "photo_query": "Melon (online music service)",
+      "photo": {
+        "path": "image_cache\\ov_c63de104559a.jpg",
+        "credit": "Photo: Nilo Velez (wordpress) / CC0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "머무르는 무엇?",
+      "rows": [
+        [
+          "정체",
+          "사람 가수가 아닌 AI 음악 프로젝트"
+        ],
+        [
+          "기획",
+          "프로듀싱팀 글로리웨이브"
+        ],
+        [
+          "대표곡",
+          "꿈꾸던 어른이 되었나요?"
+        ],
+        [
+          "발매",
+          "2026년 6월 23일 · 록 발라드"
+        ]
+      ],
+      "sources": [
+        "헤럴드경제",
+        "이투데이",
+        "톱스타뉴스"
+      ],
+      "photo_query": "Artificial intelligence",
+      "photo": {
+        "path": "image_cache\\ov_f9c3c9780e42.jpg",
+        "credit": "Photo: theglobalpanorama (Flickr) / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "누가 어떻게 만들었나",
+      "body": [
+        "기획과 **가사는 사람**이 썼고, 보컬은 **생성형 AI 수노**로 만들었어요.",
+        "여러 결과물을 비교해 고르고, 어색한 발음은 가사를 고쳐 다시 만들었대요."
+      ],
+      "note": {
+        "label": "제작팀",
+        "text": "글로리웨이브는 작곡가 이용석·최성혁이 속한 팀으로 소개돼요."
+      },
+      "sources": [
+        "이투데이",
+        "톱스타뉴스",
+        "경향신문"
+      ],
+      "photo_query": "Digital audio workstation",
+      "photo": {
+        "path": "image_cache\\ov_c63de104559a.jpg",
+        "credit": "Photo: Nilo Velez (wordpress) / CC0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 1위",
+      "items": [
+        {
+          "value": "첫 1위",
+          "label": "AI 활용곡의\n멜론 톱100 정상"
+        },
+        {
+          "value": "약 5개월",
+          "label": "6월 발매 후\n1위까지 걸린 시간"
+        },
+        {
+          "value": "66%",
+          "label": "30·40대 청취자\n비중(멜론 집계)"
+        },
+        {
+          "value": "19%",
+          "label": "20대 청취자\n비중"
+        }
+      ],
+      "sources": [
+        "헤럴드경제",
+        "이투데이",
+        "톱스타뉴스"
+      ],
+      "photo_query": "Seoul",
+      "photo": {
+        "path": "image_cache\\ov_3760da11cfb7.jpg",
+        "credit": "Photo: Emmanuel Dyan (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "저작권료는 어떻게?",
+      "body": [
+        "이 곡은 **한국음악저작권협회에 신탁 등록**이 안 돼 있어, 작사·작곡 저작권료를 받지 못한다고 알려졌어요.",
+        "제작사는 AI를 써도 사람의 판단이 함께 들어가니 **기여를 인정할 기준**이 필요하다는 입장이에요."
+      ],
+      "note": {
+        "label": "출처",
+        "text": "제작사가 이달 4일 뉴시스 인터뷰에서 밝혔다고 보도됐어요."
+      },
+      "sources": [
+        "이투데이",
+        "톱스타뉴스"
+      ],
+      "photo_query": "Korea Music Copyright Association",
+      "photo": {
+        "path": "image_cache\\ov_f9c3c9780e42.jpg",
+        "credit": "Photo: theglobalpanorama (Flickr) / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "debate",
+      "title": "엇갈리는 시선",
+      "lead": "1위 소식 뒤 AI 음악을 둘러싼 **논의가 이어지고** 있어요.",
+      "left": {
+        "label": "환영하는 쪽",
+        "points": [
+          "30·40대 호응이 컸다는 분석",
+          "같은 시장에서 선택받은 사례"
+        ]
+      },
+      "right": {
+        "label": "우려하는 쪽",
+        "points": [
+          "저작권·수익 배분 논쟁",
+          "AI 음악 신탁 기준 마련은 진통"
+        ]
+      },
+      "foot": "AI가 혼자 만든 노래로 보는 건 정확하지 않다는 평가도 있어요.",
+      "sources": [
+        "헤럴드경제",
+        "톱스타뉴스"
+      ],
+      "photo_query": "Rescene",
+      "photo": {
+        "path": "image_cache\\ov_3760da11cfb7.jpg",
+        "credit": "Photo: Emmanuel Dyan (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "1위 이후",
+      "title": "AI 음악, 어디까지\n차트에 오를까?",
+      "body": "차트 순위 변화와 저작권 인정 범위 논의를 계속 지켜봐요.",
+      "share": "발라드 팬 친구에게 보내기",
+      "sources": [
+        "경향신문",
+        "헤럴드경제",
+        "이투데이",
+        "톱스타뉴스"
+      ],
+      "photo_query": "YouTube",
+      "photo": {
+        "path": "image_cache\\wm_08606113920f.jpg",
+        "credit": "Photo: Oscar / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
