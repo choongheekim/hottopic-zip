@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-15",
+  "code": "DOCTORX",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "드라마 · SBS 금토극",
+      "title": [
+        "닥터X",
+        "15.2% 종영"
+      ],
+      "sub": "김지원 주연 ‘닥터X: 하얀 마피아의 시대’\n마지막 회까지 7장으로 정리했어요",
+      "sticker": [
+        "김지원",
+        "종영",
+        "15.2%"
+      ],
+      "sources": [
+        "일간스포츠",
+        "뉴스컬처",
+        "위키트리"
+      ],
+      "photo_query": "Kim Ji-won",
+      "photo": {
+        "path": "image_cache\\wm_bdc00cfc4eb9.jpg",
+        "credit": "Photo: K-POPIT 케이팝잇 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "닥터X는 무엇?",
+      "rows": [
+        [
+          "방송",
+          "SBS 금·토 오후 9시 50분"
+        ],
+        [
+          "첫 방송",
+          "2026년 10월 9일"
+        ],
+        [
+          "주연",
+          "김지원·이정은·손현주·김우석"
+        ],
+        [
+          "연출·극본",
+          "이정림 감독·편성근 작가"
+        ]
+      ],
+      "sources": [
+        "위키트리",
+        "일간스포츠"
+      ],
+      "photo_query": "Seoul Broadcasting System",
+      "photo": {
+        "path": "image_cache\\wm_906d59a795e4.jpg",
+        "credit": "Photo: Sim1992 / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "김지원의 마지막 선택",
+      "body": [
+        "주인공 계수정은 복수 대신 **환자의 생명**을 살리는 길을 택했어요.",
+        "마지막 회에서 부승권의 **정식 영입 제안**에 악수 대신 가벼운 목례로 답하며 이야기가 끝났어요."
+      ],
+      "note": {
+        "label": "방송 · OTT",
+        "text": "넷플릭스에서도 공개돼 3일 만에 글로벌 비영어 TV쇼 1위에 올랐어요."
+      },
+      "sources": [
+        "뉴스컬처",
+        "일간스포츠"
+      ],
+      "photo_query": "Lee Jung-eun",
+      "photo": {
+        "path": "image_cache\\wm_4aa20bd91d89.jpg",
+        "credit": "Photo: PARKJAEHWAN kinocine.com / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 닥터X",
+      "items": [
+        {
+          "value": "11.4%",
+          "label": "첫 방송 전국 시청률\n올해 미니시리즈 첫방 최고"
+        },
+        {
+          "value": "19.5%",
+          "label": "6회에서 찍은\n자체 최고 시청률"
+        },
+        {
+          "value": "15.2%",
+          "label": "최종회 전국 시청률\n첫 방송보다 3.8%p 상승"
+        },
+        {
+          "value": "17.3%",
+          "label": "최종회 순간\n최고 시청률"
+        }
+      ],
+      "sources": [
+        "일간스포츠",
+        "뉴스컬처",
+        "위키트리"
+      ],
+      "photo_query": "Son Hyun-joo",
+      "photo": {
+        "path": "image_cache\\wm_61d63f9422b9.jpg",
+        "credit": "Photo: Republic of Korea / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "닥터X의 6주",
+      "items": [
+        {
+          "date": "10.9",
+          "text": "첫 방송, 전국 11.4%로 출발"
+        },
+        {
+          "date": "6회",
+          "text": "자체 최고 전국 19.5% 기록"
+        },
+        {
+          "date": "11.7",
+          "text": "10회 17.7%, 5주 연속 전 채널 1위"
+        },
+        {
+          "date": "11.14",
+          "text": "최종회 15.2%로 종영, 전 채널 1위"
+        }
+      ],
+      "sources": [
+        "위키트리",
+        "엑스포츠뉴스",
+        "뉴스컬처"
+      ],
+      "photo_query": "Kim Woo-seok",
+      "photo": {
+        "path": "image_cache\\wm_5c94832441d2.jpg",
+        "credit": "Photo: K-POPIT 케이팝잇 TV10 / CC BY 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "종영 후 짚어볼 점",
+      "lead": "숫자는 좋았지만 **자체 최고 경신**은 못 했어요.",
+      "left": {
+        "label": "아쉬운 점",
+        "points": [
+          "최종회 15.2%, 6회 19.5% 못 넘었다",
+          "6회 이후 7~9회 연속 하락"
+        ]
+      },
+      "right": {
+        "label": "성공한 점",
+        "points": [
+          "첫 방송부터 종영까지 전 채널 미니시리즈 1위",
+          "최종회는 첫 방송보다 3.8%p 상승"
+        ]
+      },
+      "foot": "‘시즌2 만들어 달라’는 시청자 반응도 이어졌어요.",
+      "sources": [
+        "일간스포츠",
+        "뉴스컬처",
+        "위키트리"
+      ],
+      "photo_query": "Netflix",
+      "photo": {
+        "path": "image_cache\\wm_bdc00cfc4eb9.jpg",
+        "credit": "Photo: K-POPIT 케이팝잇 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.14",
+      "title": "닥터X 막내렸어요,\n다음 금토극은?",
+      "body": "후속 ‘굿파트너2’가 20일 밤 9시 50분 첫 방송해요. 김지원의 차기작 소식이 나오면 이어서 정리할게요.",
+      "share": "김지원 좋아하는 친구한테 보내기",
+      "sources": [
+        "일간스포츠",
+        "뉴스컬처",
+        "위키트리",
+        "엑스포츠뉴스"
+      ],
+      "photo_query": null,
+      "photo": {
+        "path": "image_cache\\wm_906d59a795e4.jpg",
+        "credit": "Photo: Sim1992 / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
