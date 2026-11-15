@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-15",
+  "code": "AIGLASS",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "테크·IT · 웨어러블",
+      "title": [
+        "삼성이 만든",
+        "제미나이 안경"
+      ],
+      "sub": "젠틀몬스터와 손잡은 AI 안경,\n예약 몇 시간 만에 품절됐어요",
+      "sticker": [
+        "AI",
+        "안경",
+        "품절"
+      ],
+      "sources": [
+        "스마트비즈",
+        "탑스타뉴스",
+        "네이트뉴스"
+      ],
+      "photo_query": "Gentle Monster",
+      "photo": {
+        "path": "image_cache\\ov_51434462e14a.jpg",
+        "credit": "Photo: chooyutshing (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "AI 안경은 무엇?",
+      "rows": [
+        [
+          "이름",
+          "삼성 ‘인텔리전트 아이웨어’"
+        ],
+        [
+          "AI",
+          "구글 제미나이 기반"
+        ],
+        [
+          "무게",
+          "약 41g"
+        ],
+        [
+          "디스플레이",
+          "없음 · 음성 중심"
+        ]
+      ],
+      "sources": [
+        "스마트비즈",
+        "삼성모바일프레스",
+        "헤럴드경제"
+      ],
+      "photo_query": "Google Gemini",
+      "photo": {
+        "path": "image_cache\\wm_25d631cd8308.jpg",
+        "credit": "Photo: Missvain / CC0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "안경인데 AI 비서",
+      "body": [
+        "화면 대신 **음성과 카메라**로 쓰는 안경이에요. 통화, 음악, 번역, 길 안내를 핸즈프리로 할 수 있어요.",
+        "한 번 충전하면 **최대 9시간**, 케이스로 7회 이상 더 충전해요. 아이폰 13 이후 모델과도 연동돼요."
+      ],
+      "note": {
+        "label": "참고",
+        "text": "칩은 퀄컴 스냅드래곤 AR1 Gen1이에요."
+      },
+      "sources": [
+        "삼성모바일프레스",
+        "케이벤치",
+        "탑스타뉴스"
+      ],
+      "photo_query": "Qualcomm Snapdragon",
+      "photo": {
+        "path": "image_cache\\ov_f3caecb3ab40.jpg",
+        "credit": "Photo: Sergio Uceda (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 안경",
+      "items": [
+        {
+          "value": "65만원",
+          "label": "국내 출시가\n최저가(부가세 포함)"
+        },
+        {
+          "value": "16종",
+          "label": "국내 판매\n젠틀몬스터 모델"
+        },
+        {
+          "value": "41g",
+          "label": "제품 무게\n일반 안경 수준"
+        },
+        {
+          "value": "395달러",
+          "label": "미국 최저가\n워비파커 모델"
+        }
+      ],
+      "sources": [
+        "스마트비즈",
+        "네이트뉴스",
+        "케이벤치"
+      ],
+      "photo_query": "Warby Parker",
+      "photo": {
+        "path": "image_cache\\wm_25d631cd8308.jpg",
+        "credit": "Photo: Missvain / CC0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "AI 안경의 길",
+      "items": [
+        {
+          "date": "2026.7.22",
+          "text": "갤럭시 언팩서 공개"
+        },
+        {
+          "date": "11.12",
+          "text": "젠틀몬스터 온라인 사전 예약 시작"
+        },
+        {
+          "date": "11.12",
+          "text": "주요 제품 1차 물량 몇 시간 만에 품절"
+        },
+        {
+          "date": "12.10",
+          "text": "젠틀몬스터 전국 매장서 국내 출시"
+        }
+      ],
+      "sources": [
+        "삼성모바일프레스",
+        "탑스타뉴스",
+        "네이트뉴스"
+      ],
+      "photo_query": "Samsung Galaxy Unpacked",
+      "photo": {
+        "path": "image_cache\\ov_51434462e14a.jpg",
+        "credit": "Photo: chooyutshing (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "debate",
+      "title": "살까 말까?",
+      "lead": "디스플레이는 없어요. 가격은 **65만원부터**예요.",
+      "left": {
+        "label": "끌리는 점",
+        "points": [
+          "예쁜 뿔테에 AI를 담음",
+          "아이폰과도 연동"
+        ]
+      },
+      "right": {
+        "label": "고민되는 점",
+        "points": [
+          "화면이 없어 기능 한정",
+          "가격 65만원부터"
+        ]
+      },
+      "foot": "체험은 삼성 강남과 삼성스토어 홍대점 등에서 할 수 있어요.",
+      "sources": [
+        "스마트비즈",
+        "케이벤치",
+        "이포커스"
+      ],
+      "photo_query": "Samsung Electronics",
+      "photo": {
+        "path": "image_cache\\ov_f3caecb3ab40.jpg",
+        "credit": "Photo: Sergio Uceda (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "12.10",
+      "title": "국내 정식 출시,\n누가 먼저 쓸까?",
+      "body": "12월 10일부터 젠틀몬스터 전국 매장에서 살 수 있어요. 2차 예약 알림도 열려 있어요.",
+      "share": "안경 바꿀 친구한테 보내기",
+      "sources": [
+        "스마트비즈",
+        "탑스타뉴스",
+        "네이트뉴스",
+        "헤럴드경제",
+        "케이벤치"
+      ],
+      "photo": {
+        "path": "image_cache\\ov_045b057b2a07.jpg",
+        "credit": "Photo: chooyutshing (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
