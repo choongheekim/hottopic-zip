@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-16",
+  "code": "APBC",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "스포츠 · 야구 대표팀",
+      "title": [
+        "도쿄돔의 아쉬움",
+        "한일전 13연패"
+      ],
+      "sub": "APBC 결승에서 일본에 1-5로 졌어요\n11년째 이어진 연패를 7장으로 정리했어요",
+      "sticker": [
+        "APBC",
+        "준우승",
+        "13연패"
+      ],
+      "photo_query": "Tokyo Dome",
+      "photo": {
+        "path": "image_cache\\wm_720d60fdeb3a.jpg",
+        "credit": "Photo: Dick Thomas Johnson from Tokyo, Japan / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "APBC는 무엇?",
+      "rows": [
+        [
+          "대회",
+          "아시아 프로야구 챔피언십"
+        ],
+        [
+          "장소",
+          "일본 도쿄돔"
+        ],
+        [
+          "올해 조",
+          "한국·일본·호주·대만"
+        ],
+        [
+          "한국 감독",
+          "최원호"
+        ]
+      ],
+      "sources": [
+        "스포티비뉴스",
+        "네이트 스포츠"
+      ],
+      "photo_query": "Choi Won-ho baseball",
+      "photo": {
+        "path": "image_cache\\wm_5afec6056892.jpg",
+        "credit": "Photo: Korea.net / Korean Culture and Information Service (Jeon Han / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "조별리그 1승 2패",
+      "body": [
+        "한국은 **호주에 7-8**, **일본에 5-9**로 졌고, 대만을 **6-4**로 이겼어요.",
+        "1승 2패였지만 순위 규정(TQB) 덕에 **결승**에 올랐어요."
+      ],
+      "note": {
+        "label": "일본은?",
+        "text": "조별리그 3연승으로 결승에 먼저 자리를 잡았어요."
+      },
+      "sources": [
+        "스포티비뉴스",
+        "네이트 스포츠",
+        "한국아이닷컴"
+      ],
+      "photo_query": "Kim Do-yeong",
+      "photo": {
+        "path": "image_cache\\wm_720d60fdeb3a.jpg",
+        "credit": "Photo: Dick Thomas Johnson from Tokyo, Japan / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 결승",
+      "items": [
+        {
+          "value": "1-5",
+          "label": "11월 15일\n결승 스코어"
+        },
+        {
+          "value": "13연패",
+          "label": "프로 출전 대회\n한일전 기록"
+        },
+        {
+          "value": "3점",
+          "label": "5회 일본이 낸\n마사키의 홈런"
+        },
+        {
+          "value": "5안타",
+          "label": "결승에서\n한국이 친 안타"
+        }
+      ],
+      "sources": [
+        "스포티비뉴스",
+        "네이트 스포츠",
+        "OSEN"
+      ],
+      "photo_query": "Ahn Hyun-min",
+      "photo": {
+        "path": "image_cache\\wm_48b27b2a435d.jpg",
+        "credit": "Photo: Karaage to Ochazuke / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "한일전 연패의 길",
+      "items": [
+        {
+          "date": "2015.11",
+          "text": "프리미어12 4강, 4-3 승리가 마지막"
+        },
+        {
+          "date": "2023.11",
+          "text": "APBC 결승, 연장 접전 끝에 3-4 패"
+        },
+        {
+          "date": "2026.3",
+          "text": "WBC 일본전 6-8 패"
+        },
+        {
+          "date": "11.13",
+          "text": "APBC 조별리그 5-9 패, 12연패"
+        },
+        {
+          "date": "11.15",
+          "text": "APBC 결승 1-5 패, 13연패"
+        }
+      ],
+      "sources": [
+        "스포티비뉴스",
+        "네이트 스포츠",
+        "OSEN",
+        "MLB.com"
+      ],
+      "photo_query": "South Korea national baseball team",
+      "photo": {
+        "path": "image_cache\\wm_5afec6056892.jpg",
+        "credit": "Photo: Korea.net / Korean Culture and Information Service (Jeon Han / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "13연패, 어떻게 볼까",
+      "lead": "결승에서 한국은 5회 실책 뒤 **3점 홈런**을 맞았어요.",
+      "left": {
+        "label": "아쉬운 목소리",
+        "points": [
+          "투수 교체 시점 논란",
+          "일본과 11년째 무승"
+        ]
+      },
+      "right": {
+        "label": "감독 입장",
+        "points": [
+          "젊은 투수 경쟁력 확인",
+          "단기전은 에이스 승산"
+        ]
+      },
+      "foot": "최원호 감독은 교체 계획이 있었지만 홈런을 맞았다고 설명하며, 젊은 투수들의 경쟁력을 확인했다고 했어요.",
+      "sources": [
+        "스포티비뉴스",
+        "네이트 스포츠",
+        "스포츠경향",
+        "세계일보"
+      ],
+      "photo_query": "Choi Won-ho baseball",
+      "photo": {
+        "path": "image_cache\\wm_394d4403df04.jpg",
+        "credit": "Photo: 内閣官房内閣広報室 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "13연패",
+      "title": "다음 한일전은\n언제 끊을까",
+      "body": "최 감독은 귀국 후 선수단을 대표해 사과했어요. 젊은 투수들의 경험을 다음 대회로 이어 가길 기대해 봐요.",
+      "share": "야구 좋아하는 친구한테 보내기",
+      "sources": [
+        "스포티비뉴스",
+        "네이트 스포츠",
+        "스포츠경향",
+        "재경일보"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_a7860d4bff6a.jpg",
+        "credit": "Photo: 内閣官房内閣広報室 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
