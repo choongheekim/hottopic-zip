@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-16",
+  "code": "MUNMU",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "드라마 · KBS 대하사극",
+      "title": [
+        "300억대 사극",
+        "‘문무’ 첫방"
+      ],
+      "sub": "3년 만에 돌아온 KBS 대하드라마\n첫 주 성적과 관전 포인트를 정리했어요",
+      "sticker": [
+        "대하",
+        "사극",
+        "KBS"
+      ],
+      "photo_query": "KBS Hall",
+      "photo": {
+        "path": "image_cache\\wm_41ad0cbc8b1a.jpg",
+        "credit": "Photo: Narubaru7 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "‘문무’는 무엇?",
+      "rows": [
+        [
+          "편성",
+          "KBS2 토·일 밤 9시 20분"
+        ],
+        [
+          "분량",
+          "28부작 · 11월 14일 첫방"
+        ],
+        [
+          "주인공",
+          "문무왕 김법민(이현욱)"
+        ],
+        [
+          "출연",
+          "김강우·박성웅·장혁"
+        ]
+      ],
+      "sources": [
+        "이투데이",
+        "텐아시아"
+      ],
+      "photo_query": "Daewangam",
+      "photo": {
+        "path": "image_cache\\ov_d8b279b4be91.jpg",
+        "credit": "Photo: dalbera (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "첫 회, 고구려가 먼저",
+      "body": [
+        "신라와 고구려 이야기를 번갈아 보여 준 1회에서는 **연개소문의 정변**이 크게 그려졌어요.",
+        "신라에서는 김춘추가 처형 위기에 몰렸다가 김유신이 나타나며 **긴장감**을 끌어올렸어요."
+      ],
+      "note": {
+        "label": "배역",
+        "text": "김춘추는 김강우, 연개소문은 장혁이 맡았어요."
+      },
+      "sources": [
+        "아이즈",
+        "이투데이",
+        "텐아시아"
+      ],
+      "photo_query": "Jang Hyuk",
+      "photo": {
+        "path": "image_cache\\wm_8305080d1aa8.jpg",
+        "credit": "Photo: Republic of Korea / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 문무",
+      "items": [
+        {
+          "value": "28부작",
+          "label": "토·일 방송으로\n이어지는 대하극"
+        },
+        {
+          "value": "4.7%",
+          "label": "1회 시청률\n다수 매체 보도 기준"
+        },
+        {
+          "value": "6.4%",
+          "label": "1회 분당 최고\n김춘추 무릎 꿇는 장면"
+        },
+        {
+          "value": "4.2%",
+          "label": "2회 시청률\n1회보다 0.5%p 하락"
+        }
+      ],
+      "sources": [
+        "아이즈",
+        "텐아시아",
+        "이투데이",
+        "미디어오늘"
+      ],
+      "photo_query": "Kim Kang-woo",
+      "photo": {
+        "path": "image_cache\\wm_41ad0cbc8b1a.jpg",
+        "credit": "Photo: Narubaru7 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "문무의 첫 주",
+      "items": [
+        {
+          "date": "11.12",
+          "text": "제작발표회 열려 출연진 공개"
+        },
+        {
+          "date": "11.14",
+          "text": "1회 방송, 연개소문 정변 그려져요"
+        },
+        {
+          "date": "11.15",
+          "text": "2회 방송, 시청률 4.2% 기록"
+        },
+        {
+          "date": "11.15",
+          "text": "‘100일의 거짓말’ 12회 10.4% 기록"
+        },
+        {
+          "date": "11.21",
+          "text": "3회 예정, 백제의 대야성 공격 예고"
+        }
+      ],
+      "sources": [
+        "이투데이",
+        "텐아시아",
+        "미디어오늘"
+      ],
+      "photo_query": "Gyeongju",
+      "photo": {
+        "path": "image_cache\\ov_d8b279b4be91.jpg",
+        "credit": "Photo: dalbera (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "누가 주인공일까",
+      "lead": "제목은 **문무왕**인데 초반엔 연개소문 장면이 눈에 띄어요.",
+      "left": {
+        "label": "제목의 주인공",
+        "points": [
+          "문무왕 김법민의 일대기",
+          "아버지 김춘추와 함께 성장"
+        ]
+      },
+      "right": {
+        "label": "초반 존재감",
+        "points": [
+          "연개소문 정변이 1회 중심",
+          "‘주인공이 연개소문?’ 반응도"
+        ]
+      },
+      "foot": "같은 날 tvN ‘100일의 거짓말’은 8.0%, 다음 날 10.4%로 경쟁 구도도 뚜렷해요.",
+      "sources": [
+        "미디어오늘",
+        "텐아시아"
+      ],
+      "photo_query": "Park Sung-woong",
+      "photo": {
+        "path": "image_cache\\wm_8305080d1aa8.jpg",
+        "credit": "Photo: Republic of Korea / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.21",
+      "title": "3회에서 대야성\n전투가 시작돼요",
+      "body": "백제가 대야성을 공격하는 3회가 이번 주말 방송돼요. 반등할지 지켜봐요.",
+      "share": "사극 좋아하는 친구한테 보내기",
+      "sources": [
+        "이투데이",
+        "텐아시아",
+        "아이즈",
+        "미디어오늘"
+      ],
+      "photo_query": "Cheomseongdae",
+      "photo": {
+        "path": "image_cache\\wm_41ad0cbc8b1a.jpg",
+        "credit": "Photo: Narubaru7 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
