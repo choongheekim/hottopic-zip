@@ -23,6 +23,21 @@ def reel_caption(cap: str) -> str:
     if tags:
         lines[-1] = " ".join(tags[:5])
     return "\n".join(lines)
+
+
+def post_reel(d, cap):
+    """릴스 올리기: ① 파일 직접 업로드 → 실패하면 ② 30초 쉬고 GitHub 주소로 한 번 더."""
+    p = os.path.join(d, "reel.mp4")
+    try:
+        return publish_reel(p, reel_caption(cap), share_to_feed=False)
+    except Exception as e:
+        print(f"릴스 1차 실패, 다른 방법으로 재시도: {e}")
+        import time
+        time.sleep(30)
+        url = f"https://raw.githubusercontent.com/{repo}/{branch}/{p.replace(os.sep, '/')}"
+        return publish_reel(p, reel_caption(cap), public_url=url, share_to_feed=False)
+
+
 now = datetime.now(KST)
 repo = os.environ["GITHUB_REPOSITORY"]
 branch = os.getenv("GITHUB_REF_NAME", "main")
@@ -53,7 +68,7 @@ if reel_only and not pending:
     print(f"릴스만 게시: {d}")
     if not dry:
         try:
-            rec["reel_id"] = publish_reel(os.path.join(d, "reel.mp4"), reel_caption(cap), share_to_feed=False)
+            rec["reel_id"] = post_reel(d, cap)
         except Exception as e:
             print(f"릴스 게시 실패: {e}")
             rec["reel_error"] = str(e)[:300]
@@ -78,7 +93,7 @@ else:
         reel_p = os.path.join(d, "reel.mp4")
         if os.path.exists(reel_p):
             try:
-                rec["reel_id"] = publish_reel(reel_p, reel_caption(caption), share_to_feed=False)
+                rec["reel_id"] = post_reel(d, caption)
             except Exception as e:
                 print(f"릴스 게시 실패(카드 게시물은 정상): {e}")
                 rec["reel_error"] = str(e)[:300]
