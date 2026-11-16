@@ -1,0 +1,195 @@
+{
+ "date": "2026-11-16",
+ "code": "NCTDREAM",
+ "cards": [
+  {
+   "type": "cover",
+   "kicker": "음악 · K팝",
+   "title": [
+    "NCT 드림",
+    "11연속 밀리언셀러"
+   ],
+   "sub": "데뷔 10주년 정규 6집, 첫 주에만 100만 장\n기록이 어떻게 이어졌는지 7장으로 정리했어요",
+   "sticker": [
+    "100만 장",
+    "첫 주",
+    "돌파"
+   ],
+   "sources": [
+    "연합뉴스",
+    "텐아시아",
+    "뉴스핌"
+   ],
+   "photo": {
+    "path": "image_cache/wm_ed07fcc033e8.jpg",
+    "credit": "Photo: K-POPIT 케이팝잇 / CC BY 3.0",
+    "mode": "color",
+    "cy": 0.3
+   }
+  },
+  {
+   "type": "profile",
+   "title": "이번 앨범은?",
+   "rows": [
+    [
+     "앨범",
+     "정규 6집 ‘드림 애프터 드림’"
+    ],
+    [
+     "발매",
+     "2026년 11월 9일"
+    ],
+    [
+     "타이틀곡",
+     "‘부기우기’ 포함 총 10곡"
+    ],
+    [
+     "의미",
+     "데뷔 10년을 돌아본 앨범"
+    ]
+   ],
+   "sources": [
+    "텐아시아",
+    "뉴스핌"
+   ],
+   "photo": {
+    "path": "image_cache/wm_11996a12a797.jpg",
+    "credit": "Photo: TenAsia / CC BY 3.0",
+    "mode": "color",
+    "cy": 0.4
+   }
+  },
+  {
+   "type": "story",
+   "title": "왜 ‘11연속’이 대단할까",
+   "body": [
+    "2021년 정규 1집 **‘맛’**부터 낸 앨범마다 100만 장을 넘겼어요.",
+    "데뷔 **10주년**에도 첫 주 판매가 꺾이지 않았다는 점이 눈에 띄어요."
+   ],
+   "note": {
+    "label": "한터차트 주간",
+    "text": "첫 주 100만 2천500여 장으로 주간 음반 차트 1위"
+   },
+   "sources": [
+    "연합뉴스",
+    "텐아시아"
+   ],
+   "photo": {
+    "path": "image_cache/wm_8450f666e719.jpg",
+    "credit": "Photo: 뉴스인스타 (News In Star) / CC BY 3.0",
+    "mode": "color",
+    "cy": 0.35
+   }
+  },
+  {
+   "type": "numbers",
+   "title": "숫자로 보는 6집",
+   "items": [
+    {
+     "value": "11연속",
+     "label": "밀리언셀러를 기록한 앨범 수"
+    },
+    {
+     "value": "100만",
+     "label": "한터차트 첫 주\n판매량(장)"
+    },
+    {
+     "value": "10곡",
+     "label": "타이틀곡 포함\n수록곡"
+    },
+    {
+     "value": "10년",
+     "label": "2016년 데뷔\n올해 10주년"
+    }
+   ],
+   "sources": [
+    "연합뉴스",
+    "텐아시아",
+    "스포티비뉴스"
+   ],
+   "photo": {
+    "path": "image_cache/wm_094fdb8babe2.jpg",
+    "credit": "Photo: K-POPIT 케이팝잇 (TV10) / CC BY 3.0",
+    "mode": "color",
+    "cy": 0.3
+   }
+  },
+  {
+   "type": "timeline",
+   "title": "NCT 드림의 10년",
+   "items": [
+    {
+     "date": "2016",
+     "text": "NCT의 세 번째 유닛으로 데뷔"
+    },
+    {
+     "date": "2021",
+     "text": "정규 1집 ‘맛’ 첫 밀리언셀러"
+    },
+    {
+     "date": "11.9",
+     "text": "정규 6집 ‘드림 애프터 드림’ 발매"
+    },
+    {
+     "date": "11.14",
+     "text": "‘2026 멜론뮤직어워드’ 무대"
+    },
+    {
+     "date": "11.16",
+     "text": "한터 주간 1위, 11연속 달성"
+    }
+   ],
+   "sources": [
+    "스포티비뉴스",
+    "텐아시아"
+   ],
+   "photo": {
+    "path": "image_cache/wm_99293dc4202d.jpg",
+    "credit": "Photo: SBS Radio / CC BY 3.0",
+    "mode": "color",
+    "cy": 0.3
+   }
+  },
+  {
+   "type": "story",
+   "title": "타이틀곡 ‘부기우기’",
+   "body": [
+    "디스코 펑크 사운드를 바탕으로 한 **댄스곡**이에요.",
+    "함께해 온 시간에 대한 고마움과 **앞으로의 기대**를 담았어요."
+   ],
+   "note": {
+    "label": "차트 성적",
+    "text": "멜론 글로벌-K 일간, 벅스 실시간, 텐센트뮤직 K팝 차트 1위"
+   },
+   "sources": [
+    "뉴스핌",
+    "텐아시아"
+   ],
+   "photo": {
+    "path": "image_cache/wm_39d6232cbe62.jpg",
+    "credit": "Photo: K-POPIT 케이팝잇 / CC BY 3.0",
+    "mode": "color",
+    "cy": 0.3
+   }
+  },
+  {
+   "type": "outro",
+   "big": "11연속",
+   "title": "12번째 기록도\n이어질까",
+   "body": "10주년 활동은 이제 시작이에요. 다음 앨범 소식이 나오면 이어서 정리할게요.",
+   "share": "NCT 드림 팬 친구한테 보내기",
+   "sources": [
+    "연합뉴스",
+    "텐아시아",
+    "뉴스핌",
+    "스포티비뉴스"
+   ],
+   "photo": {
+    "path": "image_cache/wm_0c9a33042b73.jpg",
+    "credit": "Photo: TenAsia / CC BY 3.0",
+    "mode": "color",
+    "cy": 0.4
+   }
+  }
+ ]
+}
