@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-17",
+  "code": "SUNEUNG",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "테크·IT · 수능",
+      "title": [
+        "수능장에 등장한",
+        "AI 안경 단속"
+      ],
+      "sub": "일반 안경과 구분이 안 되는 AI 안경,\n수능 앞두고 나온 대책을 7장으로 정리했어요",
+      "sticker": [
+        "AI안경",
+        "수능",
+        "D-2"
+      ],
+      "sources": [
+        "파이낸셜뉴스",
+        "서울경제",
+        "데일리안"
+      ],
+      "photo_query": "Suneung",
+      "photo": {
+        "path": "image_cache\\wm_ed3b5eb4d9ac.jpg",
+        "credit": "Photo: Republic of Korea from Seoul, Republic of Korea / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "AI 안경은 무엇?",
+      "rows": [
+        [
+          "정체",
+          "카메라·마이크가 달린 스마트 안경"
+        ],
+        [
+          "기능",
+          "보고 듣고 AI에게 질문까지"
+        ],
+        [
+          "문제",
+          "겉모습이 일반 안경과 거의 같음"
+        ],
+        [
+          "수능 규정",
+          "반입 금지, 착용만 해도 시험 무효"
+        ]
+      ],
+      "sources": [
+        "세계일보",
+        "노컷뉴스",
+        "서플"
+      ],
+      "photo_query": "Ray-Ban Meta",
+      "photo": {
+        "path": "image_cache\\wm_db0e2f56c7ac.jpg",
+        "credit": "Photo: CCadio / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "왜 이렇게 시끄러울까",
+      "body": [
+        "AI 안경 실험에서 **수능 수학 만점**이 나왔다는 보도가 이어지며 불안이 커졌어요.",
+        "육안으로 가려내기 어려워 **반입 금지만으로는 한계**가 있다는 지적이 나왔어요."
+      ],
+      "note": {
+        "label": "현장 반응",
+        "text": "감독관 82%가 육안 식별이 어렵다고 답했대요."
+      },
+      "sources": [
+        "더팩트",
+        "위키트리"
+      ],
+      "photo_query": "Smartglasses",
+      "photo": {
+        "path": "image_cache\\wm_b9c5f464e3ed.jpg",
+        "credit": "Photo: ItzANormalFioko / CC BY-SA 3.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "대응책이 나오기까지",
+      "items": [
+        {
+          "date": "2026.6",
+          "text": "국내 토익에서 AI 글라스 커닝 시도 첫 적발 보도"
+        },
+        {
+          "date": "6월",
+          "text": "교육부, 반입 금지 물품 명시 방안 검토"
+        },
+        {
+          "date": "11.11",
+          "text": "서울교육청, 안경 판별 전담 요원 특별교육"
+        },
+        {
+          "date": "11.15",
+          "text": "평가원, 스마트안경 반입 금지 유의사항 게시"
+        },
+        {
+          "date": "11.16",
+          "text": "교육부, 부교육감과 대응책 논의 수능 연기 없음"
+        }
+      ],
+      "sources": [
+        "한국경제",
+        "세계일보",
+        "서플",
+        "파이낸셜뉴스",
+        "노컷뉴스"
+      ],
+      "photo_query": "Choi Gyo-jin",
+      "photo": {
+        "path": "image_cache\\wm_cd7a24eaba25.jpg",
+        "credit": "Photo: Republic of Korea from Seoul, Republic of Korea / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 대책",
+      "items": [
+        {
+          "value": "1,312곳",
+          "label": "전담 인력을 두는\n전국 시험장"
+        },
+        {
+          "value": "228곳",
+          "label": "서울 지역\n수능 시험장"
+        },
+        {
+          "value": "1명 이상",
+          "label": "시험장별\n안경 판별 전담"
+        },
+        {
+          "value": "1년",
+          "label": "현행 다음 해\n응시 자격 정지(3년 추진)"
+        }
+      ],
+      "sources": [
+        "서울경제",
+        "데일리안",
+        "서플"
+      ],
+      "photo_query": "Suneung",
+      "photo": {
+        "path": "image_cache\\wm_25c7e8505bbb.jpg",
+        "credit": "Photo: Republic of Korea from Seoul, Republic of Korea / CC BY-SA 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "debate",
+      "title": "현장은 어떻게 볼까",
+      "lead": "교육부는 **매 교시 안경을 전수 점검**하기로 했어요.",
+      "left": {
+        "label": "교육 당국",
+        "points": [
+          "의심 안경은 벗어서 확인",
+          "착용만 해도 시험 무효 처리"
+        ]
+      },
+      "right": {
+        "label": "교원단체",
+        "points": [
+          "감독 교사의 민원 부담 우려",
+          "소송 등 보호 대책 요구"
+        ]
+      },
+      "foot": "전파탐지기는 올해 수능에는 도입하지 않고, 내년 도입 여부를 검토한다고 해요.",
+      "sources": [
+        "매일노동뉴스",
+        "데일리안"
+      ],
+      "photo_query": "Meta Ray-Ban Display",
+      "photo": {
+        "path": "image_cache\\wm_915f81ea2732.jpg",
+        "credit": "Photo: Kyu3a / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.19",
+      "title": "수능 당일,\n안경 점검 어떻게 될까",
+      "body": "수능은 예정대로 11월 19일에 치러져요. 감독관이 요청하면 안경을 벗어 책상 위에 올려두고 확인에 협조하면 돼요.",
+      "share": "수험생 둔 친구한테 보내기",
+      "sources": [
+        "파이낸셜뉴스",
+        "서울경제",
+        "데일리안",
+        "서플",
+        "노컷뉴스",
+        "매일노동뉴스"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_5cc1cb6a7af8.jpg",
+        "credit": "Photo: Kyu3a / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    }
+  ]
+}
