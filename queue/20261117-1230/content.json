@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-17",
+  "code": "JENNIE",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "음악 · 그래미",
+      "title": [
+        "제니, 그래미",
+        "본상 후보 지명"
+      ],
+      "sub": "‘드라큘라’로 올해의 레코드 후보에 오른\n소식과 아이브·키키까지 7장으로 정리했어요",
+      "sticker": [
+        "그래미",
+        "제니",
+        "아시안팝"
+      ],
+      "photo_query": "Jennie Kim BLACKPINK",
+      "photo": {
+        "path": "image_cache\\wm_09522b16a989.jpg",
+        "credit": "Photo: D4cgrapher / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "‘드라큘라’는?",
+      "rows": [
+        [
+          "곡명",
+          "Dracula(드라큘라)"
+        ],
+        [
+          "참여",
+          "제니 & 타메 임팔라"
+        ],
+        [
+          "원곡",
+          "2025년 9월 발표"
+        ],
+        [
+          "후보",
+          "올해의 레코드 외 1개"
+        ]
+      ],
+      "sources": [
+        "Korea Times",
+        "Forbes"
+      ],
+      "photo_query": "Tame Impala",
+      "photo": {
+        "path": "image_cache\\wm_e8c22e78644d.jpg",
+        "credit": "Photo: Mr. Rossi / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "story",
+      "title": "제니, 본상 후보에",
+      "body": [
+        "**제니**가 ‘드라큘라’로 그래미 **올해의 레코드**와 베스트 팝 듀오/그룹, 2개 부문 후보에 올랐어요.",
+        "제니 개인 첫 그래미 후보예요. 블랙핑크에선 지난해 **로제**에 이어 두 번째 올해의 레코드 후보예요."
+      ],
+      "note": {
+        "label": "함께 후보",
+        "text": "테일러 스위프트, 브루노 마스, 레이 등과 경쟁해요."
+      },
+      "sources": [
+        "Korea Times",
+        "Gold Derby",
+        "Grammy.com"
+      ],
+      "photo_query": "Jennie Kim BLACKPINK",
+      "photo": {
+        "path": "image_cache\\wm_09522b16a989.jpg",
+        "credit": "Photo: D4cgrapher / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "아시안팝 부문 신설",
+      "body": [
+        "새로 생긴 **베스트 아시안 팝** 부문에 **아이브**와 **키키**가 이름을 올렸어요.",
+        "아이브는 ‘뱅뱅’, 키키는 ‘404 (New Era)’로 후보예요. 이 부문 케이팝 후보는 두 팀뿐이에요."
+      ],
+      "note": {
+        "label": "다른 후보",
+        "text": "BINI, 리사(LiSA), SB19, 베이비메탈이 함께 올랐어요."
+      },
+      "sources": [
+        "allkpop",
+        "Korea Daily",
+        "Hollywood Reporter"
+      ],
+      "photo_query": "IVE group",
+      "photo": {
+        "path": "image_cache\\wm_dfadec144734.jpg",
+        "credit": "Photo: https://www.youtube.com/@_TV10 / CC BY 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 후보",
+      "items": [
+        {
+          "value": "2개",
+          "label": "제니가 오른\n그래미 부문"
+        },
+        {
+          "value": "6팀",
+          "label": "아시안 팝\n신설 부문 후보"
+        },
+        {
+          "value": "2팀",
+          "label": "그중 케이팝\n아이브·키키"
+        },
+        {
+          "value": "3위",
+          "label": "드라큘라의\n빌보드 핫100 순위"
+        }
+      ],
+      "sources": [
+        "Korea Times",
+        "allkpop",
+        "헤럴드경제"
+      ],
+      "photo_query": "Rosé BLACKPINK",
+      "photo": {
+        "path": "image_cache\\ov_65030db14822.jpg",
+        "credit": "Photo: rosefan694 (Flickr) / CC BY 2.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "드라큘라의 길",
+      "items": [
+        {
+          "date": "2025.9",
+          "text": "타메 임팔라, 원곡 발표"
+        },
+        {
+          "date": "2026.2",
+          "text": "제니 참여 리믹스 공개"
+        },
+        {
+          "date": "11월",
+          "text": "빌보드 핫100 3위 유지"
+        },
+        {
+          "date": "11.16",
+          "text": "그래미 후보 발표"
+        }
+      ],
+      "sources": [
+        "Forbes",
+        "헤럴드경제",
+        "Korea Times"
+      ],
+      "photo_query": "Tame Impala",
+      "photo": {
+        "path": "image_cache\\wm_96d7d7074065.jpg",
+        "credit": "Photo: Evalanone / CC0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "outro",
+      "big": "2.7",
+      "title": "그래미 시상식,\n제니 수상할까?",
+      "body": "제69회 그래미 시상식은 2027년 2월 7일 미국 로스앤젤레스 크립토닷컴 아레나에서 열려요.",
+      "share": "제니 좋아하는 친구한테 보내기",
+      "sources": [
+        "Korea Times",
+        "Forbes",
+        "Gold Derby",
+        "allkpop",
+        "Korea Daily",
+        "Hollywood Reporter",
+        "헤럴드경제",
+        "Grammy.com"
+      ],
+      "photo_query": "Crypto.com Arena",
+      "photo": {
+        "path": "image_cache\\wm_e8c22e78644d.jpg",
+        "credit": "Photo: Mr. Rossi / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
