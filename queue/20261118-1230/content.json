@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-18",
+  "code": "MORENO",
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "스포츠 · 축구 국가대표",
+      "title": [
+        "오세훈 헤더,",
+        "모레노호 마침표"
+      ],
+      "sub": "사우디전 2-3 충격패 뒤 카타르전 1-0 승리\n올해 A매치를 이렇게 끝냈어요",
+      "sticker": [
+        "1-0",
+        "오세훈",
+        "모레노"
+      ],
+      "sources": [
+        "스포츠경향",
+        "애드뉴스인천",
+        "네이트 스포츠"
+      ],
+      "photo_query": "Oh Se-hun",
+      "photo": {
+        "path": "image_cache\\wm_b30be1a540a7.jpg",
+        "credit": "Photo: Ujishadow / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "profile",
+      "title": "모레노는 누구?",
+      "rows": [
+        [
+          "직책",
+          "대표팀 임시 사령탑"
+        ],
+        [
+          "부임",
+          "지난 9월"
+        ],
+        [
+          "치른 경기",
+          "A매치 6경기"
+        ],
+        [
+          "계약",
+          "11월 27일 만료"
+        ]
+      ],
+      "sources": [
+        "스포츠경향",
+        "한국아이닷컴",
+        "서울경제"
+      ],
+      "photo_query": "Son Heung-min",
+      "photo": {
+        "path": "image_cache\\wm_ef27dd2d249d.jpg",
+        "credit": "Photo: Ujishadow / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "충격패 뒤 반전",
+      "body": [
+        "13일 사우디에 **2-3으로 졌어요**. 사우디에 진 건 2005년 이후 21년 만이에요.",
+        "나흘 뒤 카타르를 만나 전반 43분 **오세훈의 헤더 결승골**로 1-0으로 이겼어요."
+      ],
+      "note": {
+        "label": "골 장면",
+        "text": "송민규가 왼쪽 측면을 돌파해 올린 크로스를 오세훈이 머리로 마무리했어요."
+      },
+      "sources": [
+        "스포츠경향",
+        "애드뉴스인천",
+        "네이트 스포츠"
+      ],
+      "photo_query": "Song Min-gyu",
+      "photo": {
+        "path": "image_cache\\wm_6c653a4965e3.jpg",
+        "credit": "Photo: Explicit / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.4
+      }
+    },
+    {
+      "type": "numbers",
+      "title": "숫자로 보는 카타르전",
+      "items": [
+        {
+          "value": "21개",
+          "label": "한국의\n슈팅 수"
+        },
+        {
+          "value": "9개",
+          "label": "한국의\n유효슈팅"
+        },
+        {
+          "value": "43분",
+          "label": "오세훈의\n결승 헤더골"
+        },
+        {
+          "value": "3승1무2패",
+          "label": "모레노 체제\n6경기 성적"
+        }
+      ],
+      "sources": [
+        "애드뉴스인천",
+        "스포츠경향",
+        "네이트 스포츠"
+      ],
+      "photo_query": "Abdullah bin Khalifa Stadium",
+      "photo": {
+        "path": "image_cache\\wm_b30be1a540a7.jpg",
+        "credit": "Photo: Ujishadow / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "모레노호 6경기",
+      "items": [
+        {
+          "date": "2026.9",
+          "text": "모레노 임시 감독 부임"
+        },
+        {
+          "date": "9~10월",
+          "text": "평가전 4경기 2승 1무 1패"
+        },
+        {
+          "date": "11.13",
+          "text": "사우디에 2-3 패, 21년 만의 패배"
+        },
+        {
+          "date": "11.17",
+          "text": "카타르에 1-0 승, 도하 원정"
+        },
+        {
+          "date": "11.27",
+          "text": "모레노 감독 계약 만료 예정"
+        }
+      ],
+      "sources": [
+        "서울경제",
+        "한국아이닷컴",
+        "스포츠경향"
+      ],
+      "photo_query": "Lee Kang-in",
+      "photo": {
+        "path": "image_cache\\wm_6c653a4965e3.jpg",
+        "credit": "Photo: Explicit / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "story",
+      "title": "아쉬운 결승골",
+      "body": [
+        "모레노 감독은 **더 나은 스코어를 만들 수 있었다**고 아쉬워했어요.",
+        "슈팅은 21개였지만 **골은 한 골뿐**이라 결정력이 숙제로 남았어요."
+      ],
+      "note": {
+        "label": "감독 거취",
+        "text": "협회가 6경기를 평가해 정하고, 모레노는 카타르전 뒤 스페인으로 간다는 보도가 있어요."
+      },
+      "sources": [
+        "애드뉴스인천",
+        "스포츠경향",
+        "이투데이"
+      ],
+      "photo_query": "Kim Min-jae",
+      "photo": {
+        "path": "image_cache\\wm_31ddd0255184.jpg",
+        "credit": "Photo: Hainotdeptrai / CC0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    },
+    {
+      "type": "outro",
+      "big": "11.27",
+      "title": "모레노 계약 만료,\n다음 감독은 누구?",
+      "body": "협회가 6경기를 평가해 정식 감독 여부를 정하고, 발표는 12월 중순 이후가 될 수 있어요.",
+      "share": "축구 대표팀 팬 친구한테 보내기",
+      "sources": [
+        "스포츠경향",
+        "애드뉴스인천",
+        "네이트 스포츠",
+        "한국아이닷컴",
+        "이투데이",
+        "서울경제"
+      ],
+      "photo": {
+        "path": "image_cache\\wm_786f68563087.jpg",
+        "credit": "Photo: Explicit / CC BY-SA 4.0",
+        "mode": "color",
+        "cy": 0.35,
+        "bg": true
+      }
+    }
+  ]
+}
